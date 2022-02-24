@@ -2,13 +2,8 @@
 <?php
 	$empresa = 'A BELA E A FERA';
 	$CNPJ = '00.000.000/0001-00';
-<<<<<<< HEAD
 	$url = 'http://localhost/belaeafera/';	
 	// $url = 'https://abelaeaferaexperience.com.br/';
-=======
-	// $url = 'http://localhost/belaeafera/';	
-	$url = 'https://abelaeaferaexperience.com.br/';
->>>>>>> 646b194c121a48c4deb31520ae9868634408a61e
 	$images = $url.'assets/images/';
 	$Tags = '';
 	
