@@ -75,27 +75,12 @@
 		<h1 class="">A BELA E A FERA EXPERIENCE</h1>
 
 		<div class="menu-locais-links">
-			<!-- <a class="" local="sp">SÃO PAULO</a> -->
 			<a class="active" local="rj">RIO DE JANEIRO</a>
 			<a class="" local="mg">BELO HORIZONTE</a>
+			<a class="" local="ba">SALVADOR</a>
+			<!-- <a class="" local="pe">RECIFE</a> -->
+			<a class="" local="sp">SÃO PAULO</a>
 		</div>
-
-		<!-- <div class="local sp active">
-			<div class="wrapper-card">
-				<div class="card">
-					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon02.png">
-					</div>
-					<h2>ESTACIONAMENTO MOOCA PLAZA SHOPPING</h2>
-				</div>
-				<div class="card">
-					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon03.png">
-					</div>
-					<h2>DURAÇÃO - 75min</h2>
-				</div>
-			</div>
-		</div> -->
 
 		<div class="local rj active">
 			<div class="wrapper-card">
@@ -121,6 +106,57 @@
 						<img src="<? echo $images ?>icon02.png">
 					</div>
 					<h2>ESTACIONAMENTO G SHOPPING DEL REY</h2>
+				</div>
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon03.png">
+					</div>
+					<h2>DURAÇÃO - 75min</h2>
+				</div>
+			</div>
+		</div>	
+
+		<div class="local ba">
+			<div class="wrapper-card">
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon02.png">
+					</div>
+					<h2>SHOPPING DA BAHIA</h2>
+				</div>
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon03.png">
+					</div>
+					<h2>DURAÇÃO - 75min</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="local pe">
+			<div class="wrapper-card">
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon02.png">
+					</div>
+					<h2>SHOPPING RECIFE</h2>
+				</div>
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon03.png">
+					</div>
+					<h2>DURAÇÃO - 75min</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="local sp">
+			<div class="wrapper-card">
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon02.png">
+					</div>
+					<h2>MORUMBI TOWN SHOPPING</h2>
 				</div>
 				<div class="card">
 					<div class="img-wrapper">
@@ -208,6 +244,56 @@
 				</tr>
 			</table>
 		</div>
+
+		<div class="local ba">
+			<h1>HORÁRIOS E VALORES - BA</h1>
+
+			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15, 17h e 19h</h2>
+			<table>
+				<tr>
+					<td class="first"></td>
+					<td class="first">QUI-SEX</td>
+					<td class="first">SÁB-DOM</td>
+				</tr>
+
+				<tr>
+					<td class="first">Couvert Artistico</td>
+					<td>R$ 50,00</td>
+					<td>R$ 60,00</td>
+				</tr>
+
+				<tr>
+					<td class="first">Promocional Couvert Art + Consumação</td>
+					<td>R$ 80,00<br> (R$ 35 Couvert + R$ 45 consumação)</td>
+					<td>R$ 90,00<br> (R$ 45 couvert + R$ 45 consumação)</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="local pe">
+			<h1>HORÁRIOS E VALORES - PE</h1>
+
+			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15, 17h e 19h</h2>
+			<table>
+				<tr>
+					<td class="first"></td>
+					<td class="first">QUI-SEX</td>
+					<td class="first">SÁB-DOM</td>
+				</tr>
+
+				<tr>
+					<td class="first">Couvert Artistico</td>
+					<td>R$ 50,00</td>
+					<td>R$ 60,00</td>
+				</tr>
+
+				<tr>
+					<td class="first">Promocional Couvert Art + Consumação</td>
+					<td>R$ 80,00<br> (R$ 35 Couvert + R$ 45 consumação)</td>
+					<td>R$ 90,00<br> (R$ 45 couvert + R$ 45 consumação)</td>
+				</tr>
+			</table>
+		</div>
 	</section>
 
 	<section id="ingressos">
@@ -218,13 +304,6 @@
 		</p>
 		
 		<div class="wrapper-card">
-
-			<!-- <div class="card">
-				<a onclick="gtag_report_conversion('<? echo $siteVendasSP ?>')" class="Btn" href="<? echo $siteVendasSP ?>">
-					<h2>São Paulo</h2>
-				</a>
-			</div> -->
-
 			<div class="card">
 				<a onclick="gtag_report_conversion('<? echo $siteVendasRJ ?>')" class="Btn" href="<? echo $siteVendasRJ ?>">
 					<h2>Rio de Janeiro</h2>
@@ -234,6 +313,24 @@
 			<div class="card">
 				<a onclick="gtag_report_conversion('<? echo $siteVendasMG ?>')" class="Btn" href="<? echo $siteVendasMG ?>">
 					<h2>Belo Horizonte</h2>
+				</a>
+			</div>
+
+			<div class="card">
+				<a onclick="gtag_report_conversion('<? echo $siteVendasBA ?>')" class="Btn" href="<? echo $siteVendasBA ?>">
+					<h2>Salvador</h2>
+				</a>
+			</div>
+
+			<!-- <div class="card">
+				<a onclick="gtag_report_conversion('<? echo $siteVendasPE ?>')" class="Btn" href="<? echo $siteVendasPE ?>">
+					<h2>Recife</h2>
+				</a>
+			</div> -->
+
+			<div class="card">
+				<a onclick="gtag_report_conversion('<? echo $siteVendasSP ?>')" class="Btn" href="<? echo $siteVendasSP ?>">
+					<h2>São Paulo</h2>
 				</a>
 			</div>
 
