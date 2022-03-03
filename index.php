@@ -39,7 +39,7 @@
 	<section id="principal">
 		<img class="bg" src="<? echo $images ?>bg.jpg">
 		<article>
-			<h1>DENTRO DE UM LINDO CASTELO DE 1.500 MTS², <strong>A BELA E A FERA EXPERIENCE</strong> UNE ENTRETENIMENTO E GASTRONOMIA
+			<h1>DENTRO DE UM LINDO CASTELO<strong>A BELA E A FERA EXPERIENCE</strong> UNE ENTRETENIMENTO E GASTRONOMIA
 			</h1>
 		</article>
 
@@ -50,16 +50,15 @@
 	</section>
 
 	<section id="menu-abas">
-
 		<p id="megashow">
-			Ao chegar no estacionamento do Shopping, o visitante já se sentirá transportado para um lugar fantástico ao se deparar com o imponente castelo de mais de 1.500 mts² montado para receber A Bela e A Fera Experience. Toda a experiência começa ao entrar em um encantado foyer perfeito para incríveis registros fotográficos.
+			Ao chegar no estacionamento do Shopping, o visitante já se sentirá transportado para um lugar fantástico ao se deparar com o imponente castelo com em média 700mt² montado para receber A Bela e A Fera Experience. Toda a experiência começa ao entrar em um encantado foyer perfeito para incríveis registros fotográficos.
 			<br><br>
 			Após a recepção na entrada do castelo, os visitantes serão convidados ao baile real, que acontece dentro do salão principal. Após tomarem seus lugares, os funcionários da realeza passarão de mesa em mesa oferecendo o cardápio das delícias do dia e já preparando o público para o início da segunda parte da experiência.
-			 <br><br>
+			<br><br>
 			Com a plateia em formato Dinner o show é uma releitura, adaptada da  clássica história, originalmente escrita pela francesa Gabrielle-Suzanne Barbot em 1740. Com dezenas de artistas, os convidados desse glamuroso evento podem esperar muita música, dança, teatro e ilusionismo, além de efeitos especiais visuais e olfativos durante todo o percurso. Tudo isso enquanto se deliciam com uma experiência gastronômica elaborada especialmente pela chef Ana Laura de Melo Guedes e Oliveira.
-			 <br><br>
+			<br><br>
 			O figurino é um show à parte. Com grande riqueza de detalhes, darão vida e realismo aos clássicos personagens Bela, Fera (que se transforma em príncipe), Candelabro, Relógio e muitos outros. Toda a equipe (recepcionistas, vendedores e garçons) também estará caracterizada com figurinos de época para que a imersão seja ainda mais completa.
-			 <br><br>
+			<br><br>
 			Os ingressos de A Bela e A Fera Experience têm preços a partir de R$50,00 (couvert artístico). O evento atende a todas as regras de distanciamento social e higiene necessárias para sua realização.
 			<br><br>
 			Os assentos são definidos por ordem de chegada. Temos dois palcos, sendo um deles 360°.<br>			
@@ -67,18 +66,16 @@
 		</p>
 
 		<video id='videolol' src="<? echo $images ?>bela.mov" preload="auto" type="video/mp4" controls poster="<? echo $images ?>bela_Moment.jpg"></video>
-
 	</section>
 
 	<section id="icones">
-
 		<h1 class="">A BELA E A FERA EXPERIENCE</h1>
 
 		<div class="menu-locais-links">
 			<a class="active" local="rj">RIO DE JANEIRO</a>
 			<a class="" local="mg">BELO HORIZONTE</a>
 			<a class="" local="ba">SALVADOR</a>
-			<!-- <a class="" local="pe">RECIFE</a> -->
+			<a class="" local="pe">RECIFE</a>
 			<a class="" local="sp">SÃO PAULO</a>
 		</div>
 
@@ -322,11 +319,11 @@
 				</a>
 			</div>
 
-			<!-- <div class="card">
+			<div class="card">
 				<a onclick="gtag_report_conversion('<? echo $siteVendasPE ?>')" class="Btn" href="<? echo $siteVendasPE ?>">
 					<h2>Recife</h2>
 				</a>
-			</div> -->
+			</div>
 
 			<div class="card">
 				<a onclick="gtag_report_conversion('<? echo $siteVendasSP ?>')" class="Btn" href="<? echo $siteVendasSP ?>">
