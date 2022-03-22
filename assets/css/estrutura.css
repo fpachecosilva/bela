@@ -90,7 +90,7 @@ body {display: none; font-family: 'Roboto', sans-serif; box-sizing: border-box; 
 	
 	/* Menu Abas: */
 	#menu-abas h2 { text-align: center; font-size: 42px; color: #fff; margin: auto; line-height: 48px; margin-top: 97px }	
-	#menu-abas { width: 1180px; margin: auto; margin-top: 25px; }
+	#menu-abas { width: 1180px; max-width: 100%; margin: auto; margin-top: 25px; }
 	.menu-links { width: 100%; height: 45px; border-bottom: 1px solid rgba(216, 216, 216, 0.5); padding-left: 110px; padding-right: 110px; box-sizing: border-box; }
 	.menu-links a { font-size: 22px; opacity: 0.70; display: inline-block; width: 33%; height: 45px; text-align: center; margin-top: -3px; }
 	.menu-links .ativo { color: #B6A168; opacity: 1; font-size: 22px; border-bottom: 5px solid #B6A168; font-weight: bold; }
@@ -101,7 +101,7 @@ body {display: none; font-family: 'Roboto', sans-serif; box-sizing: border-box; 
 /* :Menu Abas */
 
 /* Ingressos: */
-	#ingressos { width: 1180px; max-width: 100%; margin: auto; border-top: 1px solid rgba(216, 216, 216, 0.5); }
+	#ingressos { width: 1180px; max-width: 100%; margin: auto; }
 	#ingressos h1 { display: block; width: 980; height: 66px; text-align: center; color: var(--secundaria); font-size: 38px; margin-top: 43px; }	
 	#ingressos .card h2 { color: #FFFFFF; font-family: Roboto; font-size: 20px; font-weight: 500; line-height: initial; text-align: center; margin: 0 30px; }	
 	/* #ingressos .wrapper-card { max-width: 1180px; margin: auto; margin-bottom: 50px; text-align: center; display: grid; grid-template-columns: auto auto auto auto; justify-items: center; justify-content: center; } */
@@ -161,6 +161,44 @@ body {display: none; font-family: 'Roboto', sans-serif; box-sizing: border-box; 
 	/* .menu-locais-links:after { content: ''; width: 58%; display: block; height: 1px; background-color: #fff; margin: auto; margin-top: 20px; margin-bottom: 50px; } */
 	.menu-locais-links a { font-size: 32px; cursor: pointer; color: #c3c3c3; transition: all 0.3s; display: flex; justify-content: center; align-items: center; flex: 1 0 calc(20% - 80px); padding: 30px 20px; border-bottom: 1px solid #fff; height: 40px; max-width: 20%; }
 	.menu-locais-links a.active, .menu-locais-links a:active { font-weight: bold; color: #fff; border-bottom: 5px solid; opacity: 1; }
+
+	.experiencias {
+		width: 85%;
+		height: 55px;		
+		background-color: var(--secundaria);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: auto;
+		border: 0;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.experiencias p {
+		font-size: 38px;
+		color: #000;
+		font-weight: bold;
+	}
+
+	#valores table.new { width: 85%; text-align: center; margin: auto; background-color: #fff; color: #000; }
+	#valores table.new th { padding: 20px; font-size: 20px; }
+	#valores table.new td { border: 1px solid #000; padding: 10px; vertical-align: middle; font-size: 16px; }
+	
+	#valores .table-encontro .esq { width: 5%; }
+	#valores .table-encontro .meio { width: 30%; }
+	#valores .table-encontro .dir { width: 60%; }	
+	#valores .table-encontro .linha1 { background-color: #ddebf7; }
+	#valores .table-encontro .linha2 { background-color: #bdd7ee; }
+	#valores .table-encontro .linha3 { background-color: #9bc2e6; }
+	
+	#valores .table-megashow { margin-top: 30px!important; }
+	#valores .table-megashow .esq { width: 5%; }
+	#valores .table-megashow .meio { width: 30%; }
+	#valores .table-megashow .dir { width: 60%; }
+	#valores .table-megashow .linha1 { background-color: #e2efda; }
+	#valores .table-megashow .linha2 { background-color: #c6e0b4; }
+	#valores .table-megashow .linha3 { background-color: #a9d08e; }
 	
 /* :Valores */
 
@@ -338,11 +376,17 @@ body {display: none; font-family: 'Roboto', sans-serif; box-sizing: border-box; 
 /* :Icones */
 
 /* Valores: */
+	.experiencias { width: calc(100% + 40px); margin-left: -20px; }
+	.experiencias p { font-size: 25px; }
+
 	#valores { margin-top: 30px; padding: 0 20px; }
 	#valores h1 { font-size: 22px; line-height: 24px; margin: initial; }
 	#valores h2 { font-size: 18px; line-height: 24px; margin: auto; margin-top: 5px;  }
 	#valores table { max-width: 100%; margin: auto; width: initial; height: initial; margin-top: 20px; margin-bottom: 20px }
 	#valores table td { width: 25%; height: 28px; font-size: 12px; padding: 5px; }
+
+	#valores table.new { width: calc(100% + 40px); max-width: calc(100% + 40px); margin-left: -20px; }
+	#valores table.new td { width: initial; }
 
 	.menu-locais-links:after { width: 70%; }
 /* :Valores */

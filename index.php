@@ -127,7 +127,7 @@
 					</div>
 					<h2>DURAÇÃO - 75min</h2>
 				</div>
-			</div>
+			</div>			
 		</div>
 
 		<div class="local pe">
@@ -171,7 +171,8 @@
 			<h1>HORÁRIOS E VALORES - SP</h1>
 
 			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15, 17h e 19h</h2>
-			<table>
+			<h2>A partir de 19/05</h2>
+			<!-- <table>
 				<tr>
 					<td class="first"></td>
 					<td class="first">QUI-SEX</td>
@@ -189,6 +190,115 @@
 					<td>R$ 80,00<br> (R$ 35 Couvert + R$ 45 consumação)</td>
 					<td>R$ 90,00<br> (R$ 45 couvert + R$ 45 consumação)</td>
 				</tr>
+			</table> -->
+
+			<div class="experiencias">
+				<p>EXPERIÊNCIAS</p>
+			</div>
+			
+			<table class='table-encontro new'>
+				<tbody>
+					<tr class='linha1'>
+						<th colspan='4'>ENCONTRO COM PERSONAGENS</th>
+					</tr>
+					<tr>
+						<td colspan='4' class='bgnormal'>Nessa experiência você terá um encontro com a Bela e o Príncipe para interação e foto</td>
+					</tr>
+					<tr>
+						<td class='esq'>Dias</td>
+						<td class='esq'>Sessões</td>
+						<td colspan='2' class=''>Interação com Personagens + Consumação</td>
+					</tr>
+					<tr class='linha1'>
+						<td class='esq'>QUI</td>
+						<td class='esq'>16h00</td>
+						<td rowspan='2' colspan='2' class='dir'>Promo: R$ 35,00 (Consumação) - sem cobrança de Couvert Art</td>
+					</tr>
+					<tr class='linha1'>
+						<td class='esq'>SEX</td>
+						<td class='esq'>16h00</td>						
+					</tr>
+					<tr class='linha2'>
+						<td class='esq'>SEX</td>
+						<td class='esq'>18h00</td>
+						<td colspan='2' class='dir'>Promo: R$ 40,00 (Consumação) - sem cobrança de Couvert Art</td>
+					</tr>
+					<tr class='linha3'>
+						<td class='esq'>SAB</td>
+						<td rowspan='2' class='esq'>10h30</td>
+						<td rowspan='3' class='meio'>Couvert Artístico - R$ 45,00</td>
+						<td rowspan='3' class='dir'>Promo: R$ 55,00 (R$ 45,00 Consumação) + (R$ 10,00 Couvert Art)</td>
+					</tr>
+					<tr class='linha3'>
+						<td>DOM</td>						
+					</tr>
+					<tr class='linha3'>
+						<td>DOM</td>
+						<td>21h00</td>
+						
+					</tr>
+				</tbody>
+			</table>
+
+			<table class="table-megashow new">
+				<tbody>
+					<tr class="linha1">
+						<th colspan='4'>MEGASHOW</th>
+					</tr>
+
+					<tr>
+						<td colspan='4'>Megaexperiência com muita música, dança e teatro, além de efeitos especiais visuais e olfativos.</td>
+					</tr>
+
+					<tr>
+						<td class='esq'>Dias</td>
+						<td class='esq'>Sessões</td>
+						<td class='meio'>Couvert Artístico</td>
+						<td class='dir'>Couvert Art + Consumação</td>
+					</tr>
+
+					<tr class='linha1'>
+						<td>QUI</td>
+						<td>18h00)</td>
+						<td>Couvert Artístico - R$ 35,00</td>
+						<td>Promo: R$ 60,00 (R$ 45,00 Consumação) + (R$ 15 Couvert Art)</td>
+					</tr>
+
+					<tr class='linha2'>
+						<td>QUI</td>
+						<td rowspan='2'>20h00</td>
+						<td rowspan='2'>Couvert Artístico - R$ 50,00</td>
+						<td rowspan='2'>Promo: R$ 80,00 (R$ 45,00 Consumação) + (R$ 35 Couvert Art)</td>
+					</tr>
+
+					<tr class="linha2">
+						<td>SEX</td>
+					</tr>
+
+					<tr class='linha3'>
+						<td rowspan='4'>SAB DOM</td>												
+						<td>13h00</td>
+						<td rowspan='5'>Couvert Artístico - R$ 60,00</td>
+						<td rowspan='5'>Promo: R$ 90,00 (R$ 45,00 Consumação) + (R$ 45 Couvert Art)</td>
+					</tr>
+					
+					<tr class='linha3'>
+						<td>15h00</td>
+					</tr>
+
+					<tr class='linha3'>
+						<td>17h00</td>						
+					</tr>
+
+					<tr class='linha3'>
+						<td>19h00</td>
+					</tr>
+					
+					<tr class='linha3'>
+						<td>SAB</td>										
+						<td>21h00</td>
+					</tr>					
+				</tbody>
 			</table>
 		</div>
 
@@ -246,7 +356,9 @@
 			<h1>HORÁRIOS E VALORES - BA</h1>
 
 			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15, 17h e 19h</h2>
-			<table>
+			<h2>A partir de 22/04</h2>
+
+			<!-- <table>
 				<tr>
 					<td class="first"></td>
 					<td class="first">QUI-SEX</td>
@@ -264,6 +376,115 @@
 					<td>R$ 80,00<br> (R$ 35 Couvert + R$ 45 consumação)</td>
 					<td>R$ 90,00<br> (R$ 45 couvert + R$ 45 consumação)</td>
 				</tr>
+			</table> -->
+
+			<div class="experiencias">
+				<p>EXPERIÊNCIAS</p>
+			</div>
+			
+			<table class='table-encontro new'>
+				<tbody>
+					<tr class='linha1'>
+						<th colspan='4'>ENCONTRO COM PERSONAGENS</th>
+					</tr>
+					<tr>
+						<td colspan='4' class='bgnormal'>Nessa experiência você terá um encontro com a Bela e o Príncipe para interação e foto</td>
+					</tr>
+					<tr>
+						<td class='esq'>Dias</td>
+						<td class='esq'>Sessões</td>
+						<td colspan='2' class=''>Interação com Personagens + Consumação</td>
+					</tr>
+					<tr class='linha1'>
+						<td class='esq'>QUI</td>
+						<td class='esq'>16h00</td>
+						<td rowspan='2' colspan='2' class='dir'>Promo: R$ 35,00 (Consumação) - sem cobrança de Couvert Art</td>
+					</tr>
+					<tr class='linha1'>
+						<td class='esq'>SEX</td>
+						<td class='esq'>16h00</td>						
+					</tr>
+					<tr class='linha2'>
+						<td class='esq'>SEX</td>
+						<td class='esq'>18h00</td>
+						<td colspan='2' class='dir'>Promo: R$ 40,00 (Consumação) - sem cobrança de Couvert Art</td>
+					</tr>
+					<tr class='linha3'>
+						<td class='esq'>SAB</td>
+						<td rowspan='2' class='esq'>10h30</td>
+						<td rowspan='3' class='meio'>Couvert Artístico - R$ 45,00</td>
+						<td rowspan='3' class='dir'>Promo: R$ 55,00 (R$ 45,00 Consumação) + (R$ 10,00 Couvert Art)</td>
+					</tr>
+					<tr class='linha3'>
+						<td>DOM</td>						
+					</tr>
+					<tr class='linha3'>
+						<td>DOM</td>
+						<td>21h00</td>
+						
+					</tr>
+				</tbody>
+			</table>
+
+			<table class="table-megashow new">
+				<tbody>
+					<tr class="linha1">
+						<th colspan='4'>MEGASHOW</th>
+					</tr>
+
+					<tr>
+						<td colspan='4'>Megaexperiência com muita música, dança e teatro, além de efeitos especiais visuais e olfativos.</td>
+					</tr>
+
+					<tr>
+						<td class='esq'>Dias</td>
+						<td class='esq'>Sessões</td>
+						<td class='meio'>Couvert Artístico</td>
+						<td class='dir'>Couvert Art + Consumação</td>
+					</tr>
+
+					<tr class='linha1'>
+						<td>QUI</td>
+						<td>18h00)</td>
+						<td>Couvert Artístico - R$ 35,00</td>
+						<td>Promo: R$ 60,00 (R$ 45,00 Consumação) + (R$ 15 Couvert Art)</td>
+					</tr>
+
+					<tr class='linha2'>
+						<td>QUI</td>
+						<td rowspan='2'>20h00</td>
+						<td rowspan='2'>Couvert Artístico - R$ 50,00</td>
+						<td rowspan='2'>Promo: R$ 80,00 (R$ 45,00 Consumação) + (R$ 35 Couvert Art)</td>
+					</tr>
+
+					<tr class="linha2">
+						<td>SEX</td>
+					</tr>
+
+					<tr class='linha3'>
+						<td rowspan='4'>SAB DOM</td>												
+						<td>13h00</td>
+						<td rowspan='5'>Couvert Artístico - R$ 60,00</td>
+						<td rowspan='5'>Promo: R$ 90,00 (R$ 45,00 Consumação) + (R$ 45 Couvert Art)</td>
+					</tr>
+					
+					<tr class='linha3'>
+						<td>15h00</td>
+					</tr>
+
+					<tr class='linha3'>
+						<td>17h00</td>						
+					</tr>
+
+					<tr class='linha3'>
+						<td>19h00</td>
+					</tr>
+					
+					<tr class='linha3'>
+						<td>SAB</td>										
+						<td>21h00</td>
+					</tr>					
+				</tbody>
 			</table>
 		</div>
 
