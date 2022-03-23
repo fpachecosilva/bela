@@ -77,6 +77,7 @@
 			<a class="" local="ba">SALVADOR</a>
 			<a class="" local="pe">RECIFE</a>
 			<a class="" local="sp">SÃO PAULO</a>
+			<a class="" local="fo">FORTALEZA</a>
 		</div>
 
 		<div class="local rj active">
@@ -154,6 +155,23 @@
 						<img src="<? echo $images ?>icon02.png">
 					</div>
 					<h2>MORUMBI TOWN SHOPPING</h2>
+				</div>
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon03.png">
+					</div>
+					<h2>DURAÇÃO - 75min</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="local fo">
+			<div class="wrapper-card">
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon02.png">
+					</div>
+					<h2>SHOPPING RIOMAR FORTALEZA</h2>
 				</div>
 				<div class="card">
 					<div class="img-wrapper">
@@ -512,6 +530,31 @@
 				</tr>
 			</table>
 		</div>
+
+		<div class="local fo">
+			<h1>HORÁRIOS E VALORES - CE</h1>
+
+			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15, 17h e 19h</h2>
+			<table>
+				<tr>
+					<td class="first"></td>
+					<td class="first">QUI-SEX</td>
+					<td class="first">SÁB-DOM</td>
+				</tr>
+
+				<tr>
+					<td class="first">Couvert Artistico</td>
+					<td>R$ 50,00</td>
+					<td>R$ 60,00</td>
+				</tr>
+
+				<tr>
+					<td class="first">Promocional Couvert Art + Consumação</td>
+					<td>R$ 80,00<br> (R$ 35 Couvert + R$ 45 consumação)</td>
+					<td>R$ 90,00<br> (R$ 45 couvert + R$ 45 consumação)</td>
+				</tr>
+			</table>
+		</div>
 	</section>
 
 	<section id="ingressos">
@@ -549,6 +592,12 @@
 			<div class="card">
 				<a onclick="gtag_report_conversion('<? echo $siteVendasSP ?>')" class="Btn" href="<? echo $siteVendasSP ?>">
 					<h2>São Paulo</h2>
+				</a>
+			</div>
+
+			<div class="card">
+				<a onclick="gtag_report_conversion('<? echo $siteVendasFO ?>')" class="Btn" href="<? echo $siteVendasFO ?>">
+					<h2>Fortaleza</h2>
 				</a>
 			</div>
 
