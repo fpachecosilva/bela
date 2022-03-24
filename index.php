@@ -68,6 +68,11 @@
 		<video id='videolol' src="<? echo $images ?>bela.mov" preload="auto" type="video/mp4" controls poster="<? echo $images ?>bela_Moment.jpg"></video>
 	</section>
 
+	<div class="parceiros DesktopItem">
+		<p style="text-align: center">MEDIA PARTNER OFICIAL</p>
+		<img class="logo-parceiros" src="<? echo $images ?>media-partner.png">
+	</div>
+
 	<section id="icones">
 		<h1 class="">A BELA E A FERA EXPERIENCE</h1>
 

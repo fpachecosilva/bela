@@ -1,10 +1,6 @@
 	<footer>
-			<!-- <p class="parceiros">PARCEIROS</p>
-			<img class="marcasDesk" src="<? echo $images ?>logos-parceiros-euro-semparar.png">
-
-			<p class="parceiros">MEDIA PARTNER OFICIAL</p>
-			<img class="marcasDesk" src="<? echo $images ?>logos-parceiros.png"> -->
-		<!-- <span></span> -->
+		<p class="parceiros">MEDIA PARTNER OFICIAL</p>
+		<img class="marcasDesk" src="<? echo $images ?>media-partner.png">		
 	</footer>
 
 	<script type="text/javascript" src="<? echo $url ?>assets/javascript/jquery.js"></script>
