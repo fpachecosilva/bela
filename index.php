@@ -76,33 +76,15 @@
 	<section id="icones">
 		<h1 class="">A BELA E A FERA EXPERIENCE</h1>
 
-		<div class="menu-locais-links">
-			<a class="active" local="rj">RIO DE JANEIRO</a>
-			<a class="" local="mg">BELO HORIZONTE</a>
+		<div class="menu-locais-links">			
+			<a class="active" local="mg">BELO HORIZONTE</a>
 			<a class="" local="ba">SALVADOR</a>
 			<a class="" local="pe">RECIFE</a>
 			<a class="" local="sp">SÃO PAULO</a>
 			<a class="" local="fo">FORTALEZA</a>
-		</div>
+		</div>		
 
-		<div class="local rj active">
-			<div class="wrapper-card">
-				<div class="card">
-					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon02.png">
-					</div>
-					<h2>ESTACIONAMENTO VIA PARQUE SHOPPING</h2>
-				</div>
-				<div class="card">
-					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon03.png">
-					</div>
-					<h2>DURAÇÃO - 75min</h2>
-				</div>
-			</div>
-		</div>
-
-		<div class="local mg">
+		<div class="local mg active">
 			<div class="wrapper-card">
 				<div class="card">
 					<div class="img-wrapper">
@@ -193,7 +175,7 @@
 		<div class="local sp">
 			<h1>HORÁRIOS E VALORES - SP</h1>
 
-			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15, 17h e 19h</h2>
+			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h e 19h</h2>
 			<h2>A partir de 19/05</h2>
 			<!-- <table>
 				<tr>
@@ -325,35 +307,10 @@
 			</table>
 		</div>
 
-		<div class="local rj active">
-			<h1>HORÁRIOS E VALORES - RJ</h1>
-
-			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15, 17h e 19h</h2>
-			<table>
-				<tr>
-					<td class="first"></td>
-					<td class="first">QUI-SEX</td>
-					<td class="first">SÁB-DOM</td>
-				</tr>
-
-				<tr>
-					<td class="first">Couvert Artistico</td>
-					<td>R$ 50,00</td>
-					<td>R$ 60,00</td>
-				</tr>
-
-				<tr>
-					<td class="first">Promocional Couvert Art + Consumação</td>
-					<td>R$ 80,00<br> (R$ 35 Couvert + R$ 45 consumação)</td>
-					<td>R$ 90,00<br> (R$ 45 couvert + R$ 45 consumação)</td>
-				</tr>
-			</table>
-		</div>
-
-		<div class="local mg">
+		<div class="local mg active">
 			<h1>HORÁRIOS E VALORES - MG</h1>
 
-			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15, 17h e 19h</h2>
+			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h e 19h</h2>
 			<table>
 				<tr>
 					<td class="first"></td>
@@ -378,7 +335,7 @@
 		<div class="local ba">
 			<h1>HORÁRIOS E VALORES - BA</h1>
 
-			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15, 17h e 19h</h2>
+			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h e 19h</h2>
 			<h2>A partir de 22/04</h2>
 
 			<!-- <table>
@@ -514,7 +471,7 @@
 		<div class="local pe">
 			<h1>HORÁRIOS E VALORES - PE</h1>
 
-			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15, 17h e 19h</h2>
+			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h e 19h</h2>
 			<table>
 				<tr>
 					<td class="first"></td>
@@ -539,7 +496,7 @@
 		<div class="local fo">
 			<h1>HORÁRIOS E VALORES - CE</h1>
 
-			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15, 17h e 19h</h2>
+			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h e 19h</h2>
 			<table>
 				<tr>
 					<td class="first"></td>
@@ -570,12 +527,6 @@
 		</p>
 		
 		<div class="wrapper-card">
-			<div class="card">
-				<a onclick="gtag_report_conversion('<? echo $siteVendasRJ ?>')" class="Btn" href="<? echo $siteVendasRJ ?>">
-					<h2>Rio de Janeiro</h2>
-				</a>
-			</div>
-
 			<div class="card">
 				<a onclick="gtag_report_conversion('<? echo $siteVendasMG ?>')" class="Btn" href="<? echo $siteVendasMG ?>">
 					<h2>Belo Horizonte</h2>
