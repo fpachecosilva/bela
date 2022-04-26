@@ -77,31 +77,13 @@
 		<h1 class="">A BELA E A FERA EXPERIENCE</h1>
 
 		<div class="menu-locais-links">			
-			<a class="active" local="mg">BELO HORIZONTE</a>
-			<a class="" local="ba">SALVADOR</a>
+			<a class="active" local="ba">SALVADOR</a>
 			<a class="" local="pe">RECIFE</a>
 			<a class="" local="sp">SÃO PAULO</a>
 			<a class="" local="fo">FORTALEZA</a>
-		</div>		
+		</div>
 
-		<div class="local mg active">
-			<div class="wrapper-card">
-				<div class="card">
-					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon02.png">
-					</div>
-					<h2>ESTACIONAMENTO G SHOPPING DEL REY</h2>
-				</div>
-				<div class="card">
-					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon03.png">
-					</div>
-					<h2>DURAÇÃO - 75min</h2>
-				</div>
-			</div>
-		</div>	
-
-		<div class="local ba">
+		<div class="local ba active">
 			<div class="wrapper-card">
 				<div class="card">
 					<div class="img-wrapper">
@@ -228,32 +210,7 @@
 			</table>
 		</div>
 
-		<div class="local mg active">
-			<h1>HORÁRIOS E VALORES - MG</h1>
-
-			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h e 19h</h2>
-			<table>
-				<tr>
-					<td class="first"></td>
-					<td class="first">QUI-SEX</td>
-					<td class="first">SÁB-DOM</td>
-				</tr>
-
-				<tr>
-					<td class="first">Couvert Artistico</td>
-					<td>R$ 50,00</td>
-					<td>R$ 60,00</td>
-				</tr>
-
-				<tr>
-					<td class="first">Promocional Couvert Art + Consumação</td>
-					<td>R$ 80,00<br> (R$ 35 Couvert + R$ 45 consumação)</td>
-					<td>R$ 90,00<br> (R$ 45 couvert + R$ 45 consumação)</td>
-				</tr>
-			</table>
-		</div>
-
-		<div class="local ba">
+		<div class="local ba active">
 			<h1>HORÁRIOS E VALORES - BA</h1>
 
 			<h2>Quinta e Sexta - 16h, 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
@@ -368,12 +325,6 @@
 		</p>
 		
 		<div class="wrapper-card">
-			<div class="card">
-				<a onclick="gtag_report_conversion('<? echo $siteVendasMG ?>')" class="Btn" href="<? echo $siteVendasMG ?>">
-					<h2>Belo Horizonte</h2>
-				</a>
-			</div>
-
 			<div class="card">
 				<a onclick="gtag_report_conversion('<? echo $siteVendasBA ?>')" class="Btn" href="<? echo $siteVendasBA ?>">
 					<h2>Salvador</h2>
