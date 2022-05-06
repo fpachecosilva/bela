@@ -81,7 +81,7 @@
 			<a class="" local="pe">RECIFE</a>
 			<a class="" local="sp">SÃO PAULO</a>
 			<a class="" local="fo">FORTALEZA</a>
-			<a class="" local="vv">VILA VELHA</a>
+			<!-- <a class="" local="vv">VILA VELHA</a> -->
 		</div>
 
 		<div class="local ba active">
@@ -395,11 +395,11 @@
 				</a>
 			</div>
 
-			<div class="card">
+			<!-- <div class="card">
 				<a onclick="gtag_report_conversion('<? echo $siteVendasVV ?>')" class="Btn" href="<? echo $siteVendasVV ?>">
 					<h2>Vila Velha</h2>
 				</a>
-			</div>
+			</div> -->
 
 		</div>
 
