@@ -81,6 +81,7 @@
 			<a class="" local="pe">RECIFE</a>
 			<a class="" local="sp">SÃO PAULO</a>
 			<a class="" local="fo">FORTALEZA</a>
+			<a class="" local="vv">VILA VELHA</a>
 		</div>
 
 		<div class="local ba active">
@@ -150,6 +151,23 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="local vv">
+			<div class="wrapper-card">
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon02.png">
+					</div>
+					<h2>SHOPPING VILA VELHA</h2>
+				</div>
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon03.png">
+					</div>
+					<h2>DURAÇÃO - 75min</h2>
+				</div>
+			</div>
+		</div>
 	</section>
 
 
@@ -158,7 +176,10 @@
 			<h1>HORÁRIOS E VALORES - SP</h1>
 
 			<h2>Quinta e Sexta - 16h, 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
-			<h2>A partir de 19/05</h2>			
+			<h2>A partir de 19/05</h2><br>		
+			<h2>
+				AVISO IMPORTANTE: As sessões de A Bela e a Fera Experience em SP, que ocorreriam nos dias 07, 08, 12 e 13/05 foram adiadas. Para maiores informações, entre em contato com o nosso SAC através do botão WhatsApp.
+			</h2>			
 
 			<div class="experiencias">
 				<p>MEGASHOW</p>
@@ -315,6 +336,31 @@
 				</tr>
 			</table>
 		</div>
+
+		<div class="local vv">
+			<h1>HORÁRIOS E VALORES - ES</h1>
+
+			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h e 19h</h2>
+			<table>
+				<tr>
+					<td class="first"></td>
+					<td class="first">QUI-SEX</td>
+					<td class="first">SÁB-DOM</td>
+				</tr>
+
+				<tr>
+					<td class="first">Couvert Artistico</td>
+					<td>R$ 50,00</td>
+					<td>R$ 60,00</td>
+				</tr>
+
+				<tr>
+					<td class="first">Promocional Couvert Art + Consumação</td>
+					<td>R$ 80,00<br> (R$ 35 Couvert + R$ 45 consumação)</td>
+					<td>R$ 90,00<br> (R$ 45 couvert + R$ 45 consumação)</td>
+				</tr>
+			</table>
+		</div>
 	</section>
 
 	<section id="ingressos">
@@ -346,6 +392,12 @@
 			<div class="card">
 				<a onclick="gtag_report_conversion('<? echo $siteVendasFO ?>')" class="Btn" href="<? echo $siteVendasFO ?>">
 					<h2>Fortaleza</h2>
+				</a>
+			</div>
+
+			<div class="card">
+				<a onclick="gtag_report_conversion('<? echo $siteVendasVV ?>')" class="Btn" href="<? echo $siteVendasVV ?>">
+					<h2>Vila Velha</h2>
 				</a>
 			</div>
 
