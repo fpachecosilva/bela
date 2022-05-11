@@ -178,7 +178,7 @@
 			<h2>Quinta e Sexta - 16h, 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
 			<h2>A partir de 19/05</h2><br>		
 			<h2>
-				AVISO IMPORTANTE: As sessões de A Bela e a Fera Experience em SP, que ocorreriam nos dias 07, 08, 12 e 13/05 foram adiadas. Para maiores informações, entre em contato com o nosso SAC através do botão WhatsApp.
+				AVISO IMPORTANTE: As sessões de A Bela e a Fera Experience em SP, que ocorreriam nos dias 12, 13, 14 e 15/05 foram adiadas. Para maiores informações, entre em contato com o nosso SAC através do botão WhatsApp.
 			</h2>			
 
 			<div class="experiencias">
