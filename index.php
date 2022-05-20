@@ -77,10 +77,29 @@
 		<h1 class="">A BELA E A FERA EXPERIENCE</h1>
 
 		<div class="menu-locais-links">			
-			<a class="active" local="pe">RECIFE</a>
 			<a class="" local="sp">SÃO PAULO</a>
-			<a class="" local="fo">FORTALEZA</a>
+			<a class="active" local="pe">RECIFE</a>
+			<a class="" local="br">BRASÍLIA</a>
 			<a class="" local="vv">VILA VELHA</a>
+			<a class="" local="fo">FORTALEZA</a>
+			<a class="" local="go">GOIÂNIA</a>
+		</div>
+		
+		<div class="local sp">
+			<div class="wrapper-card">
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon02.png">
+					</div>
+					<h2>MORUMBI TOWN SHOPPING</h2>
+				</div>
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon03.png">
+					</div>
+					<h2>DURAÇÃO - 75min</h2>
+				</div>
+			</div>
 		</div>
 		
 		<div class="local pe active">
@@ -100,13 +119,30 @@
 			</div>
 		</div>
 
-		<div class="local sp">
+		<div class="local br">
 			<div class="wrapper-card">
 				<div class="card">
 					<div class="img-wrapper">
 						<img src="<? echo $images ?>icon02.png">
 					</div>
-					<h2>MORUMBI TOWN SHOPPING</h2>
+					<h2>PATIO BRASIL SHOPPING</h2>
+				</div>
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon03.png">
+					</div>
+					<h2>DURAÇÃO - 75min</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="local vv">
+			<div class="wrapper-card">
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon02.png">
+					</div>
+					<h2>SHOPPING VILA VELHA</h2>
 				</div>
 				<div class="card">
 					<div class="img-wrapper">
@@ -134,13 +170,13 @@
 			</div>
 		</div>
 
-		<div class="local vv">
+		<div class="local go">
 			<div class="wrapper-card">
 				<div class="card">
 					<div class="img-wrapper">
 						<img src="<? echo $images ?>icon02.png">
 					</div>
-					<h2>SHOPPING VILA VELHA</h2>
+					<h2>GOIÂNIA SHOPPING</h2>
 				</div>
 				<div class="card">
 					<div class="img-wrapper">
@@ -152,7 +188,6 @@
 		</div>
 	</section>
 
-
 	<section id="valores">
 		<div class="local sp">
 			<h1>HORÁRIOS E VALORES - SP</h1>
@@ -160,7 +195,7 @@
 			<h2>Quinta e Sexta - 16h, 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
 			<h2>A partir de 19/05</h2><br>		
 			<h2>
-				AVISO IMPORTANTE: As sessões de A Bela e a Fera Experience em SP, que ocorreriam nos dias 12, 13, 14 e 15/05 foram adiadas. Para maiores informações, entre em contato com o nosso SAC através do botão WhatsApp.
+				AVISO IMPORTANTE: As sessões de A Bela e a Fera Experience em SP, que ocorreriam nos dias 19 e 20/05 foram adiadas. Para maiores informações, entre em contato com o nosso SAC através do botão WhatsApp.
 			</h2>			
 
 			<div class="experiencias">
@@ -211,10 +246,96 @@
 					</tr>										
 				</tbody>
 			</table>
-		</div>
-	
 
-		<div class="local pe active">
+			<br><br>
+			<h2>Preços referentes a ingressos para sessões a partir de 23/06</h2>
+
+			<table>
+				<tr>
+					<td class="first">Dia</td>
+					<td class="first">SÁB</td>
+					<td class="first">DOM</td>
+				</tr>
+				<tr>
+					<td>Sessões</td>
+					<td>10h30, 13h, 15h, 17h e 19h</td>
+					<td>13h, 15h e 17h </td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 80,00</td>
+					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 95,00</td>
+					<td>R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table>
+
+			<table>
+				<tr>
+					<td class="first">Dia</td>
+					<td class="first">SÁB</td>
+					<td class="first">DOM</td>
+				</tr>
+				<tr>
+					<td>Sessões</td>
+					<td>21h</td>
+					<td>10h30, 19h e 21h</td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 60,00</td>
+					<td>R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 80,00</td>
+					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table>
+
+			<table>
+				<tr>
+					<td class="first">Dia</td>
+					<td class="first">QUI</td>
+					<td class="first">SEX</td>
+				</tr>
+				<tr>
+					<td>Sessões</td>
+					<td>18h e 20h</td>
+					<td>18h e 20h</td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 55,00</td>
+					<td>R$ 45,00 Consumação + R$ 10,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 60,00</td>
+					<td>R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table>
+		</div>	
+
+		<div class="local pe active nomap">
 			<h1>HORÁRIOS E VALORES - PE</h1>
 
 			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h e 19h</h2>
@@ -239,27 +360,91 @@
 			</table>
 		</div>
 
-		<div class="local fo">
-			<h1>HORÁRIOS E VALORES - CE</h1>
-
-			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h e 19h</h2>
+		<div class="local br">
+			<h1>HORÁRIOS E VALORES - DF</h1>
+			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
+			
 			<table>
 				<tr>
-					<td class="first"></td>
-					<td class="first">QUI-SEX</td>
-					<td class="first">SÁB-DOM</td>
+					<td class="first">Dia</td>
+					<td class="first">SÁB</td>
+					<td class="first">DOM</td>
 				</tr>
-
 				<tr>
-					<td class="first">Couvert Artistico</td>
-					<td>R$ 50,00</td>
+					<td>Sessões</td>
+					<td>10h30, 13h, 15h, 17h e 19h</td>
+					<td>13h, 15h e 17h </td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 80,00</td>
+					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 95,00</td>
+					<td>R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table>
+
+			<table>
+				<tr>
+					<td class="first">Dia</td>
+					<td class="first">SÁB</td>
+					<td class="first">DOM</td>
+				</tr>
+				<tr>
+					<td>Sessões</td>
+					<td>21h</td>
+					<td>10h30, 19h e 21h</td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
 					<td>R$ 60,00</td>
+					<td>R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
 				</tr>
-
 				<tr>
-					<td class="first">Promocional Couvert Art + Consumação</td>
-					<td>R$ 80,00<br> (R$ 35 Couvert + R$ 45 consumação)</td>
-					<td>R$ 90,00<br> (R$ 45 couvert + R$ 45 consumação)</td>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 80,00</td>
+					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table>
+
+			<table>
+				<tr>
+					<td class="first">Dia</td>
+					<td class="first">QUI</td>
+					<td class="first">SEX</td>
+				</tr>
+				<tr>
+					<td>Sessões</td>
+					<td>18h e 20h</td>
+					<td>18h e 20h</td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 55,00</td>
+					<td>R$ 45,00 Consumação + R$ 10,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 60,00</td>
+					<td>R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
 				</tr>
 			</table>
 		</div>
@@ -267,7 +452,7 @@
 		<div class="local vv">
 			<h1>HORÁRIOS E VALORES - ES</h1>
 
-			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h e 19h</h2>
+			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
 			<table>
 				<tr>
 					<td class="first"></td>
@@ -287,17 +472,312 @@
 					<td>R$ 90,00<br> (R$ 45 couvert + R$ 45 consumação)</td>
 				</tr>
 			</table>
+
+			<br><br>
+			<h2>Preços referentes a ingressos para sessões a partir de 21/07</h2>
+
+			<table>
+				<tr>
+					<td class="first">Dia</td>
+					<td class="first">SÁB</td>
+					<td class="first">DOM</td>
+				</tr>
+				<tr>
+					<td>Sessões</td>
+					<td>10h30, 13h, 15h, 17h e 19h</td>
+					<td>13h, 15h e 17h </td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 80,00</td>
+					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 95,00</td>
+					<td>R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table>
+
+			<table>
+				<tr>
+					<td class="first">Dia</td>
+					<td class="first">SÁB</td>
+					<td class="first">DOM</td>
+				</tr>
+				<tr>
+					<td>Sessões</td>
+					<td>21h</td>
+					<td>10h30, 19h e 21h</td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 60,00</td>
+					<td>R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 80,00</td>
+					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table>
+
+			<table>
+				<tr>
+					<td class="first">Dia</td>
+					<td class="first">QUI</td>
+					<td class="first">SEX</td>
+				</tr>
+				<tr>
+					<td>Sessões</td>
+					<td>18h e 20h</td>
+					<td>18h e 20h</td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 55,00</td>
+					<td>R$ 45,00 Consumação + R$ 10,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 60,00</td>
+					<td>R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table>
 		</div>
+
+		<div class="local fo">
+			<h1>HORÁRIOS E VALORES - CE</h1>
+
+			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
+			<table>
+				<tr>
+					<td class="first"></td>
+					<td class="first">QUI-SEX</td>
+					<td class="first">SÁB-DOM</td>
+				</tr>
+
+				<tr>
+					<td class="first">Couvert Artistico</td>
+					<td>R$ 50,00</td>
+					<td>R$ 60,00</td>
+				</tr>
+
+				<tr>
+					<td class="first">Promocional Couvert Art + Consumação</td>
+					<td>R$ 80,00<br> (R$ 35 Couvert + R$ 45 consumação)</td>
+					<td>R$ 90,00<br> (R$ 45 couvert + R$ 45 consumação)</td>
+				</tr>
+			</table>
+
+			<br><br>
+			<h2>Preços referentes a ingressos para sessões a partir de 28/07</h2>
+
+			<table>
+				<tr>
+					<td class="first">Dia</td>
+					<td class="first">SÁB</td>
+					<td class="first">DOM</td>
+				</tr>
+				<tr>
+					<td>Sessões</td>
+					<td>10h30, 13h, 15h, 17h e 19h</td>
+					<td>13h, 15h e 17h </td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 80,00</td>
+					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 95,00</td>
+					<td>R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table>
+
+			<table>
+				<tr>
+					<td class="first">Dia</td>
+					<td class="first">SÁB</td>
+					<td class="first">DOM</td>
+				</tr>
+				<tr>
+					<td>Sessões</td>
+					<td>21h</td>
+					<td>10h30, 19h e 21h</td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 60,00</td>
+					<td>R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 80,00</td>
+					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table>
+
+			<table>
+				<tr>
+					<td class="first">Dia</td>
+					<td class="first">QUI</td>
+					<td class="first">SEX</td>
+				</tr>
+				<tr>
+					<td>Sessões</td>
+					<td>18h e 20h</td>
+					<td>18h e 20h</td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 55,00</td>
+					<td>R$ 45,00 Consumação + R$ 10,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 60,00</td>
+					<td>R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="local go">
+			<h1>HORÁRIOS E VALORES - GO</h1>
+			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
+			
+			<table>
+				<tr>
+					<td class="first">Dia</td>
+					<td class="first">SÁB</td>
+					<td class="first">DOM</td>
+				</tr>
+				<tr>
+					<td>Sessões</td>
+					<td>10h30, 13h, 15h, 17h e 19h</td>
+					<td>13h, 15h e 17h </td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 80,00</td>
+					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 95,00</td>
+					<td>R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table>
+
+			<table>
+				<tr>
+					<td class="first">Dia</td>
+					<td class="first">SÁB</td>
+					<td class="first">DOM</td>
+				</tr>
+				<tr>
+					<td>Sessões</td>
+					<td>21h</td>
+					<td>10h30, 19h e 21h</td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 60,00</td>
+					<td>R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 80,00</td>
+					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table>
+
+			<table>
+				<tr>
+					<td class="first">Dia</td>
+					<td class="first">QUI</td>
+					<td class="first">SEX</td>
+				</tr>
+				<tr>
+					<td>Sessões</td>
+					<td>18h e 20h</td>
+					<td>18h e 20h</td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 55,00</td>
+					<td>R$ 45,00 Consumação + R$ 10,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 60,00</td>
+					<td>R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table>
+		</div>
+
+		<img class="mapa" src="<? echo $images ?>mapa.jpg">
 	</section>
 
 	<section id="ingressos">
-		<h1 class="">INGRESSOS</h1>
-		
+		<h1 class="">INGRESSOS</h1>		
 		<p class="aviso">
 			Atendendo aos decretos municipais n°60.488 (São Paulo) e nº 49.335 (Rio de Janeiro) e portaria SMSA/SUS-BH Nº 0604/2021 (Belo Horizonte), o evento A Bela e a Fera Experience, solicitará ao público que irá assistir e viver a experiência , o comprovante de vacinação do cidadão contra a COVID-19 para o acesso aos eventos. O público poderá apresentar o comprovante físico de vacinação (carteirinha de vacinação), ou de forma digital disponível nas plataformas ConectSUS, que podem ser baixados na loja de aplicativos do seu smartphone. Condições sujeitas às mudanças dos órgãos reguladores até a data de sua sessão.
 		</p>
 		
 		<div class="wrapper-card">
+			<div class="card">
+				<a onclick="gtag_report_conversion('<? echo $siteVendasSP ?>')" class="Btn" href="<? echo $siteVendasSP ?>">
+					<h2>São Paulo</h2>
+				</a>
+			</div>
+
 			<div class="card">
 				<a onclick="gtag_report_conversion('<? echo $siteVendasPE ?>')" class="Btn" href="<? echo $siteVendasPE ?>">
 					<h2>Recife</h2>
@@ -305,8 +785,14 @@
 			</div>
 
 			<div class="card">
-				<a onclick="gtag_report_conversion('<? echo $siteVendasSP ?>')" class="Btn" href="<? echo $siteVendasSP ?>">
-					<h2>São Paulo</h2>
+				<a onclick="gtag_report_conversion('<? echo $siteVendasDF ?>')" class="Btn" href="<? echo $siteVendasDF ?>">
+					<h2>Brasília</h2>
+				</a>
+			</div>
+
+			<div class="card">
+				<a onclick="gtag_report_conversion('<? echo $siteVendasVV ?>')" class="Btn" href="<? echo $siteVendasVV ?>">
+					<h2>Vila Velha</h2>
 				</a>
 			</div>
 
@@ -317,10 +803,11 @@
 			</div>
 
 			<div class="card">
-				<a onclick="gtag_report_conversion('<? echo $siteVendasVV ?>')" class="Btn" href="<? echo $siteVendasVV ?>">
-					<h2>Vila Velha</h2>
+				<a onclick="gtag_report_conversion('<? echo $siteVendasGO ?>')" class="Btn" href="<? echo $siteVendasGO ?>">
+					<h2>Goiânia</h2>
 				</a>
 			</div>
+
 
 		</div>
 

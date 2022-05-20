@@ -90,12 +90,22 @@ jQuery(document).ready(function () {
 
 			$('html, body').animate({
 				scrollTop: $('div.'+ local+'.active').offset().top - 300
-			}, 450);            
+			}, 450);
+
+			noMap();
 		})
 	})
 
 	// Navegacao Locais
 
+	function noMap() {
+		if( $('#valores .local.active').hasClass('nomap') ) {			
+			$('.mapa').css('display', 'none')
+		} else {
+			$('.mapa').css('display', 'block')
+		}
+	}
+	noMap();
 
 	// Accordeon
 	$(document).ready(function () {
