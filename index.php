@@ -474,7 +474,7 @@
 			</table>
 
 			<br><br>
-			<h2>Preços referentes a ingressos para sessões a partir de 21/07</h2>
+			<h2>Preços referentes a ingressos para sessões a partir de 28/07</h2>
 
 			<table>
 				<tr>
