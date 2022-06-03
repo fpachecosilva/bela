@@ -82,6 +82,7 @@
 			<a class="" local="br">BRASÍLIA</a>
 			<a class="" local="vv">VILA VELHA</a>
 			<a class="" local="fo">FORTALEZA</a>
+			<a class="" local="mg">UBERLÂNDIA</a>
 			<a class="" local="go">GOIÂNIA</a>
 		</div>
 		
@@ -177,6 +178,23 @@
 						<img src="<? echo $images ?>icon02.png">
 					</div>
 					<h2>GOIÂNIA SHOPPING</h2>
+				</div>
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon03.png">
+					</div>
+					<h2>DURAÇÃO - 75min</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="local mg">
+			<div class="wrapper-card">
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon02.png">
+					</div>
+					<h2>PÁTIO BRASIL SHOPPING​</h2>
 				</div>
 				<div class="card">
 					<div class="img-wrapper">
@@ -586,7 +604,7 @@
 			</table>
 
 			<br><br>
-			<h2>Preços referentes a ingressos para sessões a partir de 28/07</h2>
+			<h2>Preços referentes a ingressos para sessões a partir de 04/08</h2>
 
 			<table>
 				<tr>
@@ -762,6 +780,95 @@
 			</table>
 		</div>
 
+		<div class="local mg">
+			<h1>HORÁRIOS E VALORES - MG</h1>
+			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
+			
+			<table>
+				<tr>
+					<td class="first">Dia</td>
+					<td class="first">SÁB</td>
+					<td class="first">DOM</td>
+				</tr>
+				<tr>
+					<td>Sessões</td>
+					<td>10h30, 13h, 15h, 17h e 19h</td>
+					<td>13h, 15h e 17h </td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 80,00</td>
+					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 95,00</td>
+					<td>R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table>
+
+			<table>
+				<tr>
+					<td class="first">Dia</td>
+					<td class="first">SÁB</td>
+					<td class="first">DOM</td>
+				</tr>
+				<tr>
+					<td>Sessões</td>
+					<td>21h</td>
+					<td>10h30, 19h e 21h</td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 60,00</td>
+					<td>R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 80,00</td>
+					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table>
+
+			<table>
+				<tr>
+					<td class="first">Dia</td>
+					<td class="first">QUI</td>
+					<td class="first">SEX</td>
+				</tr>
+				<tr>
+					<td>Sessões</td>
+					<td>18h e 20h</td>
+					<td>18h e 20h</td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 55,00</td>
+					<td>R$ 45,00 Consumação + R$ 10,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 60,00</td>
+					<td>R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table>
+		</div>
+
 		<img class="mapa" src="<? echo $images ?>mapa.jpg">
 	</section>
 
@@ -803,12 +910,16 @@
 			</div>
 
 			<div class="card">
+				<a onclick="gtag_report_conversion('<? echo $siteVendasMG ?>')" class="Btn" href="<? echo $siteVendasMG ?>">
+					<h2>Uberlândia</h2>
+				</a>
+			</div>
+
+			<div class="card">
 				<a onclick="gtag_report_conversion('<? echo $siteVendasGO ?>')" class="Btn" href="<? echo $siteVendasGO ?>">
 					<h2>Goiânia</h2>
 				</a>
 			</div>
-
-
 		</div>
 
 		<!-- <div class="ingressostxt">
