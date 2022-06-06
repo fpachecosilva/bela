@@ -194,7 +194,7 @@
 					<div class="img-wrapper">
 						<img src="<? echo $images ?>icon02.png">
 					</div>
-					<h2>PÁTIO BRASIL SHOPPING​</h2>
+					<h2>UBERLÂNDIA SHOPPING​</h2>
 				</div>
 				<div class="card">
 					<div class="img-wrapper">
