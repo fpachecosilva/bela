@@ -82,7 +82,10 @@
 			<a class="" local="br">BRASÍLIA</a>
 			<a class="" local="vv">VILA VELHA</a>
 			<a class="" local="fo">FORTALEZA</a>
+			<a class="" local="so">SOROCABA</a>
 			<a class="" local="mg">UBERLÂNDIA</a>
+			<a class="" local="rp">RIBEIRÃO PRETO</a>
+			<a class="" local="jp">JOÃO PESSOA</a>
 			<a class="" local="go">GOIÂNIA</a>
 		</div>
 		
@@ -171,13 +174,13 @@
 			</div>
 		</div>
 
-		<div class="local go">
+		<div class="local so">
 			<div class="wrapper-card">
 				<div class="card">
 					<div class="img-wrapper">
 						<img src="<? echo $images ?>icon02.png">
 					</div>
-					<h2>GOIÂNIA SHOPPING</h2>
+					<h2>SHOPPING IGUATEMI ESPLANADA</h2>
 				</div>
 				<div class="card">
 					<div class="img-wrapper">
@@ -195,6 +198,57 @@
 						<img src="<? echo $images ?>icon02.png">
 					</div>
 					<h2>UBERLÂNDIA SHOPPING​</h2>
+				</div>
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon03.png">
+					</div>
+					<h2>DURAÇÃO - 75min</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="local rp">
+			<div class="wrapper-card">
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon02.png">
+					</div>
+					<h2>SHOPPING IGUATEMI RIBEIRÃO PRETO​</h2>
+				</div>
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon03.png">
+					</div>
+					<h2>DURAÇÃO - 75min</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="local jp">
+			<div class="wrapper-card">
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon02.png">
+					</div>
+					<h2>MANGABEIRA SHOPPING​​</h2>
+				</div>
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon03.png">
+					</div>
+					<h2>DURAÇÃO - 75min</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="local go">
+			<div class="wrapper-card">
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon02.png">
+					</div>
+					<h2>GOIÂNIA SHOPPING</h2>
 				</div>
 				<div class="card">
 					<div class="img-wrapper">
@@ -691,8 +745,8 @@
 			</table>
 		</div>
 
-		<div class="local go">
-			<h1>HORÁRIOS E VALORES - GO</h1>
+		<div class="local so">
+			<h1>HORÁRIOS E VALORES - SP</h1>
 			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
 			
 			<table>
@@ -869,6 +923,273 @@
 			</table>
 		</div>
 
+		<div class="local rp">
+			<h1>HORÁRIOS E VALORES - SP</h1>
+			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
+			
+			<table>
+				<tr>
+					<td class="first">Dia</td>
+					<td class="first">SÁB</td>
+					<td class="first">DOM</td>
+				</tr>
+				<tr>
+					<td>Sessões</td>
+					<td>10h30, 13h, 15h, 17h e 19h</td>
+					<td>13h, 15h e 17h </td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 80,00</td>
+					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 95,00</td>
+					<td>R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table>
+
+			<table>
+				<tr>
+					<td class="first">Dia</td>
+					<td class="first">SÁB</td>
+					<td class="first">DOM</td>
+				</tr>
+				<tr>
+					<td>Sessões</td>
+					<td>21h</td>
+					<td>10h30, 19h e 21h</td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 60,00</td>
+					<td>R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 80,00</td>
+					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table>
+
+			<table>
+				<tr>
+					<td class="first">Dia</td>
+					<td class="first">QUI</td>
+					<td class="first">SEX</td>
+				</tr>
+				<tr>
+					<td>Sessões</td>
+					<td>18h e 20h</td>
+					<td>18h e 20h</td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 55,00</td>
+					<td>R$ 45,00 Consumação + R$ 10,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 60,00</td>
+					<td>R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="local jp">
+			<h1>HORÁRIOS E VALORES - PB</h1>
+			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
+			
+			<table>
+				<tr>
+					<td class="first">Dia</td>
+					<td class="first">SÁB</td>
+					<td class="first">DOM</td>
+				</tr>
+				<tr>
+					<td>Sessões</td>
+					<td>10h30, 13h, 15h, 17h e 19h</td>
+					<td>13h, 15h e 17h </td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 80,00</td>
+					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 95,00</td>
+					<td>R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table>
+
+			<table>
+				<tr>
+					<td class="first">Dia</td>
+					<td class="first">SÁB</td>
+					<td class="first">DOM</td>
+				</tr>
+				<tr>
+					<td>Sessões</td>
+					<td>21h</td>
+					<td>10h30, 19h e 21h</td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 60,00</td>
+					<td>R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 80,00</td>
+					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table>
+
+			<table>
+				<tr>
+					<td class="first">Dia</td>
+					<td class="first">QUI</td>
+					<td class="first">SEX</td>
+				</tr>
+				<tr>
+					<td>Sessões</td>
+					<td>18h e 20h</td>
+					<td>18h e 20h</td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 55,00</td>
+					<td>R$ 45,00 Consumação + R$ 10,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 60,00</td>
+					<td>R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="local go">
+			<h1>HORÁRIOS E VALORES - GO</h1>
+			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
+			
+			<table>
+				<tr>
+					<td class="first">Dia</td>
+					<td class="first">SÁB</td>
+					<td class="first">DOM</td>
+				</tr>
+				<tr>
+					<td>Sessões</td>
+					<td>10h30, 13h, 15h, 17h e 19h</td>
+					<td>13h, 15h e 17h </td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 80,00</td>
+					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 95,00</td>
+					<td>R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table>
+
+			<table>
+				<tr>
+					<td class="first">Dia</td>
+					<td class="first">SÁB</td>
+					<td class="first">DOM</td>
+				</tr>
+				<tr>
+					<td>Sessões</td>
+					<td>21h</td>
+					<td>10h30, 19h e 21h</td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 60,00</td>
+					<td>R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 80,00</td>
+					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table>
+
+			<table>
+				<tr>
+					<td class="first">Dia</td>
+					<td class="first">QUI</td>
+					<td class="first">SEX</td>
+				</tr>
+				<tr>
+					<td>Sessões</td>
+					<td>18h e 20h</td>
+					<td>18h e 20h</td>
+				</tr>
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 55,00</td>
+					<td>R$ 45,00 Consumação + R$ 10,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 60,00</td>
+					<td>R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 70,00</td>
+					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table>
+		</div>
+
 		<img class="mapa" src="<? echo $images ?>mapa.jpg">
 	</section>
 
@@ -910,8 +1231,26 @@
 			</div>
 
 			<div class="card">
+				<a onclick="gtag_report_conversion('<? echo $siteVendasSO ?>')" class="Btn" href="<? echo $siteVendasSO ?>">
+					<h2>Sorocaba</h2>
+				</a>
+			</div>
+
+			<div class="card">
 				<a onclick="gtag_report_conversion('<? echo $siteVendasMG ?>')" class="Btn" href="<? echo $siteVendasMG ?>">
 					<h2>Uberlândia</h2>
+				</a>
+			</div>
+
+			<div class="card">
+				<a onclick="gtag_report_conversion('<? echo $siteVendasRP ?>')" class="Btn" href="<? echo $siteVendasRP ?>">
+					<h2>Ribeirão Preto</h2>
+				</a>
+			</div>
+
+			<div class="card">
+				<a onclick="gtag_report_conversion('<? echo $siteVendasJP ?>')" class="Btn" href="<? echo $siteVendasJP ?>">
+					<h2>João Pessoa</h2>
 				</a>
 			</div>
 
