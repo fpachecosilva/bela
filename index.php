@@ -51,7 +51,7 @@
 
 	<section id="menu-abas">
 		<p id="megashow">
-			Ao chegar no estacionamento do Shopping, o visitante já se sentirá transportado para um lugar fantástico ao se deparar com o imponente castelo com em média 700mt² montado para receber A Bela e A Fera Experience. Toda a experiência começa ao entrar em um encantado foyer perfeito para incríveis registros fotográficos.
+			Ao chegar ao evento, o visitante já se sentirá transportado para um lugar fantástico ao se deparar com o castelo montado para receber A Bela e A Fera Experience. Toda a experiência começa ao entrar em um encantado foyer perfeito para incríveis registros fotográficos.
 			<br><br>
 			Após a recepção na entrada do castelo, os visitantes serão convidados ao baile real, que acontece dentro do salão principal. Após tomarem seus lugares, os funcionários da realeza passarão de mesa em mesa oferecendo o cardápio das delícias do dia e já preparando o público para o início da segunda parte da experiência.
 			<br><br>
@@ -59,7 +59,7 @@
 			<br><br>
 			O figurino é um show à parte. Com grande riqueza de detalhes, darão vida e realismo aos clássicos personagens Bela, Fera (que se transforma em príncipe), Candelabro, Relógio e muitos outros. Toda a equipe (recepcionistas, vendedores e garçons) também estará caracterizada com figurinos de época para que a imersão seja ainda mais completa.
 			<br><br>
-			Os ingressos de A Bela e A Fera Experience têm preços a partir de R$50,00 (couvert artístico). O evento atende a todas as regras de distanciamento social e higiene necessárias para sua realização.
+			Os ingressos de A Bela e A Fera Experience têm preços a partir de R$45,00 (couvert artístico). O evento atende a todas as regras de distanciamento social e higiene necessárias para sua realização.​
 			<br><br>
 			Os assentos são definidos por ordem de chegada. Temos dois palcos, sendo um deles 360°.<br>			
 			Crianças a partir dos 24 meses são pagantes.
@@ -77,8 +77,7 @@
 		<h1 class="">A BELA E A FERA EXPERIENCE</h1>
 
 		<div class="menu-locais-links">			
-			<a class="" local="sp">SÃO PAULO</a>
-			<a class="active" local="pe">RECIFE</a>
+			<a class="active" local="sp">SÃO PAULO</a>
 			<a class="" local="br">BRASÍLIA</a>
 			<a class="" local="vv">VILA VELHA</a>
 			<a class="" local="fo">FORTALEZA</a>
@@ -89,30 +88,13 @@
 			<a class="" local="go">GOIÂNIA</a>
 		</div>
 		
-		<div class="local sp">
+		<div class="local sp active">
 			<div class="wrapper-card">
 				<div class="card">
 					<div class="img-wrapper">
 						<img src="<? echo $images ?>icon02.png">
 					</div>
 					<h2>MORUMBI TOWN SHOPPING</h2>
-				</div>
-				<div class="card">
-					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon03.png">
-					</div>
-					<h2>DURAÇÃO - 75min</h2>
-				</div>
-			</div>
-		</div>
-		
-		<div class="local pe active">
-			<div class="wrapper-card">
-				<div class="card">
-					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon02.png">
-					</div>
-					<h2>SHOPPING RECIFE</h2>
 				</div>
 				<div class="card">
 					<div class="img-wrapper">
@@ -261,20 +243,12 @@
 	</section>
 
 	<section id="valores">
-		<div class="local sp">
+		<div class="local sp active">
 			<h1>HORÁRIOS E VALORES - SP</h1>
-
 			<h2>Quinta e Sexta - 16h, 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
-			<h2>A partir de 19/05</h2><br>		
-			<h2>
-				AVISO IMPORTANTE: As sessões de A Bela e a Fera Experience em SP, que ocorreriam nos dias 19 e 20/05 foram adiadas. Para maiores informações, entre em contato com o nosso SAC através do botão WhatsApp.
-			</h2>			
-
-			<div class="experiencias">
-				<p>MEGASHOW</p>
-			</div>
-			
-			<table class=''>
+			<h2>A partir de 19/05</h2><br>
+						
+			<!-- <table class=''>
 				<tbody>
 					<tr>
 						<td class='first' rowspan ='2'></td>
@@ -297,7 +271,6 @@
 					</tr>					
 				</tbody>
 			</table>
-
 			<table class="">
 				<tbody>
 					<tr>
@@ -317,126 +290,66 @@
 						<td>R$ 55,00 (R$ 10 Couvert Art + R$ 45,00 consumação)</td>
 					</tr>										
 				</tbody>
+			</table> -->
+
+			<table class="tabela-b linha1">
+				<tr>
+					<td class="first" rowspan ='3'>Dias e Sessões</td>					
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>SÁB - 10h30, 13h, 15h, 17h e 19h</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>DOM - 13h, 15h, 17h e 19h</td>
+				</tr>				
+				<tr>
+					<td class="acesso-normal">Acesso Normal</td>
+					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="magic-pass">Magic Pass</td>
+					<td>R$ 95,00 sendo R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
 			</table>
-
-			<br><br>
-			<h2>Preços referentes a ingressos para sessões a partir de 23/06</h2>
-
-			<table>
+			<table class="tabela-b linha2">
 				<tr>
-					<td class="first">Dia</td>
-					<td class="first">SÁB</td>
-					<td class="first">DOM</td>
+					<td class="first" rowspan ='3'>Dias e Sessões</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>SÁB - 21h</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>DOM - 10h30 e 21h</td>
+				</tr>				
+				<tr>
+					<td class="acesso-normal">Acesso Normal</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
 				</tr>
 				<tr>
-					<td>Sessões</td>
-					<td>10h30, 13h, 15h, 17h e 19h</td>
-					<td>13h, 15h e 17h </td>
-				</tr>
-				<tr>
-					<td class="setora">Setor Prata</td>
-					<td>R$ 70,00</td>
-					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
-				</tr>
-				<tr>
-					<td class="setorvip">Setor Ouro</td>
-					<td>R$ 80,00</td>
-					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
-				</tr>
-				<tr>
-					<td class="setorpremium">Setor Diamante</td>
-					<td>R$ 95,00</td>
-					<td>R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
-				</tr>
+					<td class="magic-pass">Magic Pass</td>
+					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
 			</table>
-
-			<table>
+			<table class="tabela-b linha3">
 				<tr>
-					<td class="first">Dia</td>
-					<td class="first">SÁB</td>
-					<td class="first">DOM</td>
+					<td class="first">Dias e Sessões</td>
+					<td class="first">QUI e SEX - 18h e 20h</td>
 				</tr>
 				<tr>
-					<td>Sessões</td>
-					<td>21h</td>
-					<td>10h30, 19h e 21h</td>
+					<td class="acesso-normal">Acesso Normal</td>
+					<td>R$ 60,00 sendo R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
 				</tr>
 				<tr>
-					<td class="setora">Setor Prata</td>
-					<td>R$ 60,00</td>
-					<td>R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
-				</tr>
-				<tr>
-					<td class="setorvip">Setor Ouro</td>
-					<td>R$ 70,00</td>
-					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
-				</tr>
-				<tr>
-					<td class="setorpremium">Setor Diamante</td>
-					<td>R$ 80,00</td>
-					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
-				</tr>
-			</table>
-
-			<table>
-				<tr>
-					<td class="first">Dia</td>
-					<td class="first">QUI</td>
-					<td class="first">SEX</td>
-				</tr>
-				<tr>
-					<td>Sessões</td>
-					<td>18h e 20h</td>
-					<td>18h e 20h</td>
-				</tr>
-				<tr>
-					<td class="setora">Setor Prata</td>
-					<td>R$ 55,00</td>
-					<td>R$ 45,00 Consumação + R$ 10,00 Couvert Artístico</td>
-				</tr>
-				<tr>
-					<td class="setorvip">Setor Ouro</td>
-					<td>R$ 60,00</td>
-					<td>R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
-				</tr>
-				<tr>
-					<td class="setorpremium">Setor Diamante</td>
-					<td>R$ 70,00</td>
-					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
-				</tr>
-			</table>
-		</div>	
-
-		<div class="local pe active nomap">
-			<h1>HORÁRIOS E VALORES - PE</h1>
-
-			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h e 19h</h2>
-			<table>
-				<tr>
-					<td class="first"></td>
-					<td class="first">QUI-SEX</td>
-					<td class="first">SÁB-DOM</td>
-				</tr>
-
-				<tr>
-					<td class="first">Couvert Artistico</td>
-					<td>R$ 50,00</td>
-					<td>R$ 60,00</td>
-				</tr>
-
-				<tr>
-					<td class="first">Promocional Couvert Art + Consumação</td>
-					<td>R$ 80,00<br> (R$ 35 Couvert + R$ 45 consumação)</td>
-					<td>R$ 90,00<br> (R$ 45 couvert + R$ 45 consumação)</td>
+					<td class="magic-pass">Magic Pass</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
 				</tr>
 			</table>
 		</div>
 
 		<div class="local br">
 			<h1>HORÁRIOS E VALORES - DF</h1>
-			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
-			
-			<table>
+			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>			
+			<!-- <table>
 				<tr>
 					<td class="first">Dia</td>
 					<td class="first">SÁB</td>
@@ -463,7 +376,6 @@
 					<td>R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
 				</tr>
 			</table>
-
 			<table>
 				<tr>
 					<td class="first">Dia</td>
@@ -491,7 +403,6 @@
 					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
 				</tr>
 			</table>
-
 			<table>
 				<tr>
 					<td class="first">Dia</td>
@@ -518,12 +429,131 @@
 					<td>R$ 70,00</td>
 					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
 				</tr>
+			</table> -->
+
+			<table class="tabela-a linha1">
+				<tr>
+					<td class="first" rowspan ='3'>Dias e Sessões</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>SÁB - 10h30, 13h, 15h, 17h e 19h</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>DOM - 13h, 15h, 17h e 19h</td>
+				</tr>				
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 95,00 sendo R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
+			</table>
+			<table class="tabela-a linha2">
+				<tr>
+					<td class="first" rowspan ='3'>Dias e Sessões</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>SÁB - 21h</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>DOM - 10h30 e 21h</td>
+				</tr>				
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 60,00 sendo R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
+			</table>
+			<table class="tabela-a linha3">
+				<tr>
+					<td class="first">Dias e Sessões</td>
+					<td class="first">QUI e SEX - 18h e 20h</td>
+				</tr>				
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 55,00 sendo R$ 45,00 Consumação + R$ 10,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 60,00 sendo R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
+			</table>
+
+			<br><br>
+			<h2>Preços referentes a ingressos para sessões a partir de 28/07</h2>
+			<table class="tabela-b linha1">
+				<tr>
+					<td class="first" rowspan ='3'>Dias e Sessões</td>					
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>SÁB - 10h30, 13h, 15h, 17h e 19h</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>DOM - 13h, 15h, 17h e 19h</td>
+				</tr>				
+				<tr>
+					<td class="acesso-normal">Acesso Normal</td>
+					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="magic-pass">Magic Pass</td>
+					<td>R$ 95,00 sendo R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
+			</table>
+			<table class="tabela-b linha2">
+				<tr>
+					<td class="first" rowspan ='3'>Dias e Sessões</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>SÁB - 21h</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>DOM - 10h30 e 21h</td>
+				</tr>				
+				<tr>
+					<td class="acesso-normal">Acesso Normal</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="magic-pass">Magic Pass</td>
+					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
+			</table>
+			<table class="tabela-b linha3">
+				<tr>
+					<td class="first">Dias e Sessões</td>
+					<td class="first">QUI e SEX - 18h e 20h</td>
+				</tr>
+				<tr>
+					<td class="acesso-normal">Acesso Normal</td>
+					<td>R$ 60,00 sendo R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="magic-pass">Magic Pass</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>
 			</table>
 		</div>
 
 		<div class="local vv">
 			<h1>HORÁRIOS E VALORES - ES</h1>
-
 			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
 			<table>
 				<tr>
@@ -547,8 +577,7 @@
 
 			<br><br>
 			<h2>Preços referentes a ingressos para sessões a partir de 28/07</h2>
-
-			<table>
+			<!-- <table>
 				<tr>
 					<td class="first">Dia</td>
 					<td class="first">SÁB</td>
@@ -575,7 +604,6 @@
 					<td>R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
 				</tr>
 			</table>
-
 			<table>
 				<tr>
 					<td class="first">Dia</td>
@@ -603,7 +631,6 @@
 					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
 				</tr>
 			</table>
-
 			<table>
 				<tr>
 					<td class="first">Dia</td>
@@ -630,12 +657,75 @@
 					<td>R$ 70,00</td>
 					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
 				</tr>
+			</table> -->
+			<table class="tabela-a linha1">
+				<tr>
+					<td class="first" rowspan ='3'>Dias e Sessões</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>SÁB - 10h30, 13h, 15h, 17h e 19h</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>DOM - 13h, 15h, 17h e 19h</td>
+				</tr>				
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 95,00 sendo R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
+			</table>
+			<table class="tabela-a linha2">
+				<tr>
+					<td class="first" rowspan ='3'>Dias e Sessões</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>SÁB - 21h</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>DOM - 10h30 e 21h</td>
+				</tr>				
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 60,00 sendo R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
+			</table>
+			<table class="tabela-a linha3">
+				<tr>
+					<td class="first">Dias e Sessões</td>
+					<td class="first">QUI e SEX - 18h e 20h</td>
+				</tr>				
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 55,00 sendo R$ 45,00 Consumação + R$ 10,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 60,00 sendo R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
 			</table>
 		</div>
 
 		<div class="local fo">
 			<h1>HORÁRIOS E VALORES - CE</h1>
-
 			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
 			<table>
 				<tr>
@@ -643,13 +733,11 @@
 					<td class="first">QUI-SEX</td>
 					<td class="first">SÁB-DOM</td>
 				</tr>
-
 				<tr>
 					<td class="first">Couvert Artistico</td>
 					<td>R$ 50,00</td>
 					<td>R$ 60,00</td>
 				</tr>
-
 				<tr>
 					<td class="first">Promocional Couvert Art + Consumação</td>
 					<td>R$ 80,00<br> (R$ 35 Couvert + R$ 45 consumação)</td>
@@ -659,8 +747,7 @@
 
 			<br><br>
 			<h2>Preços referentes a ingressos para sessões a partir de 04/08</h2>
-
-			<table>
+			<!-- <table>
 				<tr>
 					<td class="first">Dia</td>
 					<td class="first">SÁB</td>
@@ -687,7 +774,6 @@
 					<td>R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
 				</tr>
 			</table>
-
 			<table>
 				<tr>
 					<td class="first">Dia</td>
@@ -715,7 +801,6 @@
 					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
 				</tr>
 			</table>
-
 			<table>
 				<tr>
 					<td class="first">Dia</td>
@@ -742,14 +827,77 @@
 					<td>R$ 70,00</td>
 					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
 				</tr>
+			</table> -->
+			<table class="tabela-a linha1">
+				<tr>
+					<td class="first" rowspan ='3'>Dias e Sessões</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>SÁB - 10h30, 13h, 15h, 17h e 19h</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>DOM - 13h, 15h, 17h e 19h</td>
+				</tr>				
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 95,00 sendo R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
+			</table>
+			<table class="tabela-a linha2">
+				<tr>
+					<td class="first" rowspan ='3'>Dias e Sessões</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>SÁB - 21h</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>DOM - 10h30 e 21h</td>
+				</tr>				
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 60,00 sendo R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
+			</table>
+			<table class="tabela-a linha3">
+				<tr>
+					<td class="first">Dias e Sessões</td>
+					<td class="first">QUI e SEX - 18h e 20h</td>
+				</tr>				
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 55,00 sendo R$ 45,00 Consumação + R$ 10,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 60,00 sendo R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
 			</table>
 		</div>
 
 		<div class="local so">
 			<h1>HORÁRIOS E VALORES - SP</h1>
-			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
-			
-			<table>
+			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>			
+			<!-- <table>
 				<tr>
 					<td class="first">Dia</td>
 					<td class="first">SÁB</td>
@@ -776,7 +924,6 @@
 					<td>R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
 				</tr>
 			</table>
-
 			<table>
 				<tr>
 					<td class="first">Dia</td>
@@ -804,7 +951,6 @@
 					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
 				</tr>
 			</table>
-
 			<table>
 				<tr>
 					<td class="first">Dia</td>
@@ -831,14 +977,77 @@
 					<td>R$ 70,00</td>
 					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
 				</tr>
+			</table> -->
+			<table class="tabela-a linha1">
+				<tr>
+					<td class="first" rowspan ='3'>Dias e Sessões</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>SÁB - 10h30, 13h, 15h, 17h e 19h</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>DOM - 13h, 15h, 17h e 19h</td>
+				</tr>				
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 95,00 sendo R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
+			</table>
+			<table class="tabela-a linha2">
+				<tr>
+					<td class="first" rowspan ='3'>Dias e Sessões</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>SÁB - 21h</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>DOM - 10h30 e 21h</td>
+				</tr>				
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 60,00 sendo R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
+			</table>
+			<table class="tabela-a linha3">
+				<tr>
+					<td class="first">Dias e Sessões</td>
+					<td class="first">QUI e SEX - 18h e 20h</td>
+				</tr>				
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 55,00 sendo R$ 45,00 Consumação + R$ 10,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 60,00 sendo R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
 			</table>
 		</div>
 
 		<div class="local mg">
 			<h1>HORÁRIOS E VALORES - MG</h1>
-			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
-			
-			<table>
+			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>			
+			<!-- <table>
 				<tr>
 					<td class="first">Dia</td>
 					<td class="first">SÁB</td>
@@ -865,7 +1074,6 @@
 					<td>R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
 				</tr>
 			</table>
-
 			<table>
 				<tr>
 					<td class="first">Dia</td>
@@ -893,7 +1101,6 @@
 					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
 				</tr>
 			</table>
-
 			<table>
 				<tr>
 					<td class="first">Dia</td>
@@ -920,14 +1127,77 @@
 					<td>R$ 70,00</td>
 					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
 				</tr>
+			</table> -->
+			<table class="tabela-a linha1">
+				<tr>
+					<td class="first" rowspan ='3'>Dias e Sessões</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>SÁB - 10h30, 13h, 15h, 17h e 19h</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>DOM - 13h, 15h, 17h e 19h</td>
+				</tr>				
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 95,00 sendo R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
+			</table>
+			<table class="tabela-a linha2">
+				<tr>
+					<td class="first" rowspan ='3'>Dias e Sessões</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>SÁB - 21h</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>DOM - 10h30 e 21h</td>
+				</tr>				
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 60,00 sendo R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
+			</table>
+			<table class="tabela-a linha3">
+				<tr>
+					<td class="first">Dias e Sessões</td>
+					<td class="first">QUI e SEX - 18h e 20h</td>
+				</tr>				
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 55,00 sendo R$ 45,00 Consumação + R$ 10,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 60,00 sendo R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
 			</table>
 		</div>
 
 		<div class="local rp">
 			<h1>HORÁRIOS E VALORES - SP</h1>
-			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
-			
-			<table>
+			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>			
+			<!-- <table>
 				<tr>
 					<td class="first">Dia</td>
 					<td class="first">SÁB</td>
@@ -954,7 +1224,6 @@
 					<td>R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
 				</tr>
 			</table>
-
 			<table>
 				<tr>
 					<td class="first">Dia</td>
@@ -982,7 +1251,6 @@
 					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
 				</tr>
 			</table>
-
 			<table>
 				<tr>
 					<td class="first">Dia</td>
@@ -1009,14 +1277,77 @@
 					<td>R$ 70,00</td>
 					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
 				</tr>
+			</table> -->
+			<table class="tabela-a linha1">
+				<tr>
+					<td class="first" rowspan ='3'>Dias e Sessões</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>SÁB - 10h30, 13h, 15h, 17h e 19h</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>DOM - 13h, 15h, 17h e 19h</td>
+				</tr>				
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 95,00 sendo R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
+			</table>
+			<table class="tabela-a linha2">
+				<tr>
+					<td class="first" rowspan ='3'>Dias e Sessões</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>SÁB - 21h</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>DOM - 10h30 e 21h</td>
+				</tr>				
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 60,00 sendo R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
+			</table>
+			<table class="tabela-a linha3">
+				<tr>
+					<td class="first">Dias e Sessões</td>
+					<td class="first">QUI e SEX - 18h e 20h</td>
+				</tr>				
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 55,00 sendo R$ 45,00 Consumação + R$ 10,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 60,00 sendo R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
 			</table>
 		</div>
 
 		<div class="local jp">
 			<h1>HORÁRIOS E VALORES - PB</h1>
-			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
-			
-			<table>
+			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>			
+			<!-- <table>
 				<tr>
 					<td class="first">Dia</td>
 					<td class="first">SÁB</td>
@@ -1043,7 +1374,6 @@
 					<td>R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
 				</tr>
 			</table>
-
 			<table>
 				<tr>
 					<td class="first">Dia</td>
@@ -1071,7 +1401,6 @@
 					<td>R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
 				</tr>
 			</table>
-
 			<table>
 				<tr>
 					<td class="first">Dia</td>
@@ -1098,6 +1427,70 @@
 					<td>R$ 70,00</td>
 					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
 				</tr>
+			</table> -->
+			<table class="tabela-a linha1">
+				<tr>
+					<td class="first" rowspan ='3'>Dias e Sessões</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>SÁB - 10h30, 13h, 15h, 17h e 19h</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>DOM - 13h, 15h, 17h e 19h</td>
+				</tr>				
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 95,00 sendo R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
+			</table>
+			<table class="tabela-a linha2">
+				<tr>
+					<td class="first" rowspan ='3'>Dias e Sessões</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>SÁB - 21h</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>DOM - 10h30 e 21h</td>
+				</tr>				
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 60,00 sendo R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
+			</table>
+			<table class="tabela-a linha3">
+				<tr>
+					<td class="first">Dias e Sessões</td>
+					<td class="first">QUI e SEX - 18h e 20h</td>
+				</tr>				
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 55,00 sendo R$ 45,00 Consumação + R$ 10,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 60,00 sendo R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
 			</table>
 		</div>
 
@@ -1105,7 +1498,7 @@
 			<h1>HORÁRIOS E VALORES - GO</h1>
 			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
 			
-			<table>
+			<!-- <table>
 				<tr>
 					<td class="first">Dia</td>
 					<td class="first">SÁB</td>
@@ -1186,6 +1579,126 @@
 					<td class="setorpremium">Setor Diamante</td>
 					<td>R$ 70,00</td>
 					<td>R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a FastPass (acesso preferencial)</td>
+				</tr>
+			</table> -->
+
+			<table class="tabela-a linha1">
+				<tr>
+					<td class="first" rowspan ='3'>Dias e Sessões</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>SÁB - 10h30, 13h, 15h, 17h e 19h</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>DOM - 13h, 15h, 17h e 19h</td>
+				</tr>				
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 95,00 sendo R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
+			</table>
+			<table class="tabela-a linha2">
+				<tr>
+					<td class="first" rowspan ='3'>Dias e Sessões</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>SÁB - 21h</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>DOM - 10h30 e 21h</td>
+				</tr>				
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 60,00 sendo R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
+			</table>
+			<table class="tabela-a linha3">
+				<tr>
+					<td class="first">Dias e Sessões</td>
+					<td class="first">QUI e SEX - 18h e 20h</td>
+				</tr>				
+				<tr>
+					<td class="setora">Setor Prata</td>
+					<td>R$ 55,00 sendo R$ 45,00 Consumação + R$ 10,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorvip">Setor Ouro</td>
+					<td>R$ 60,00 sendo R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="setorpremium">Setor Diamante</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
+			</table>
+
+			<br><br>
+			<h2>Preços referentes a ingressos para sessões a partir de 15/09</h2>
+			<table class="tabela-b linha1">
+				<tr>
+					<td class="first" rowspan ='3'>Dias e Sessões</td>					
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>SÁB - 10h30, 13h, 15h, 17h e 19h</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>DOM - 13h, 15h, 17h e 19h</td>
+				</tr>				
+				<tr>
+					<td class="acesso-normal">Acesso Normal</td>
+					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="magic-pass">Magic Pass</td>
+					<td>R$ 95,00 sendo R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
+			</table>
+			<table class="tabela-b linha2">
+				<tr>
+					<td class="first" rowspan ='3'>Dias e Sessões</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>SÁB - 21h</td>
+				</tr>				
+				<tr>
+					<td class="first" colspan ='2'>DOM - 10h30 e 21h</td>
+				</tr>				
+				<tr>
+					<td class="acesso-normal">Acesso Normal</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="magic-pass">Magic Pass</td>
+					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
+				</tr>				
+			</table>
+			<table class="tabela-b linha3">
+				<tr>
+					<td class="first">Dias e Sessões</td>
+					<td class="first">QUI e SEX - 18h e 20h</td>
+				</tr>
+				<tr>
+					<td class="acesso-normal">Acesso Normal</td>
+					<td>R$ 60,00 sendo R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
+				</tr>
+				<tr>
+					<td class="magic-pass">Magic Pass</td>
+					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
 				</tr>
 			</table>
 		</div>
@@ -1203,12 +1716,6 @@
 			<div class="card">
 				<a onclick="gtag_report_conversion('<? echo $siteVendasSP ?>')" class="Btn" href="<? echo $siteVendasSP ?>">
 					<h2>São Paulo</h2>
-				</a>
-			</div>
-
-			<div class="card">
-				<a onclick="gtag_report_conversion('<? echo $siteVendasPE ?>')" class="Btn" href="<? echo $siteVendasPE ?>">
-					<h2>Recife</h2>
 				</a>
 			</div>
 

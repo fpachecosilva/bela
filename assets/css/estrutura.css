@@ -208,6 +208,12 @@ body {display: none; font-family: 'Roboto', sans-serif; box-sizing: border-box; 
 	#valores .setora { background-color: #f8cbad; color: #2b2b2b; }
 	#valores .setorvip { background-color: #ffe699; color: #2b2b2b; }
 	#valores .setorpremium { background-color: #ddebf7; color: #2b2b2b; }
+	#valores .acesso-normal { background-color: #ffe699; color: #2b2b2b; }
+	#valores .magic-pass { background-color: #ddebf7; color: #2b2b2b; }
+
+	#valores .tabela-a, #valores .tabela-b { width: 100%; }
+	#valores .tabela-a td:nth-child(1), #valores .tabela-b td:nth-child(1) { width: 20%; }
+	#valores .tabela-a td:nth-child(2), #valores .tabela-b td:nth-child(2) { width: 80%; }
 
 	img.mapa {
 		max-width: 100%;
