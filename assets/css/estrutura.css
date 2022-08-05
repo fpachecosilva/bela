@@ -211,6 +211,10 @@ body {display: none; font-family: 'Roboto', sans-serif; box-sizing: border-box; 
 	#valores .acesso-normal { background-color: #ffe699; color: #2b2b2b; }
 	#valores .magic-pass { background-color: #ddebf7; color: #2b2b2b; }
 
+	#valores .cel-verde { background-color: #c6e0b4; color: #2b2b2b; }
+	#valores .cel-amarela { background-color: #ffe699; color: #2b2b2b; }
+	#valores .cel-azul { background-color: #bdd7ee; color: #2b2b2b; }
+
 	#valores .tabela-a, #valores .tabela-b { width: 100%; }
 	#valores .tabela-a td:nth-child(1), #valores .tabela-b td:nth-child(1) { width: 20%; }
 	#valores .tabela-a td:nth-child(2), #valores .tabela-b td:nth-child(2) { width: 80%; }
@@ -222,6 +226,8 @@ body {display: none; font-family: 'Roboto', sans-serif; box-sizing: border-box; 
 		width: 700px;
 		display: block;
 	}
+
+	#valores .modelo-3 .colunas-4 td { width: 25%; }
 	
 /* :Valores */
 
