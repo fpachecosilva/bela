@@ -86,6 +86,8 @@
 			<a class="" local="rp">RIBEIRÃO PRETO</a>
 			<a class="" local="jp">JOÃO PESSOA</a>
 			<a class="" local="go">GOIÂNIA</a>
+			<a class="" local="sc">SANTA CATARINA</a>
+			<a class="" local="ma">SÃO LUÍS</a>
 		</div>
 		
 		<div class="local sp active">
@@ -231,6 +233,40 @@
 						<img src="<? echo $images ?>icon02.png">
 					</div>
 					<h2>GOIÂNIA SHOPPING</h2>
+				</div>
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon03.png">
+					</div>
+					<h2>DURAÇÃO - 75min</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="local sc">
+			<div class="wrapper-card">
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon02.png">
+					</div>
+					<h2>FLORIPA SHOPPING</h2>
+				</div>
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon03.png">
+					</div>
+					<h2>DURAÇÃO - 75min</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="local ma">
+			<div class="wrapper-card">
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<? echo $images ?>icon02.png">
+					</div>
+					<h2>SÃO LUÍS SHOPPING</h2>
 				</div>
 				<div class="card">
 					<div class="img-wrapper">
@@ -1764,6 +1800,18 @@
 			<div class="card">
 				<a onclick="gtag_report_conversion('<? echo $siteVendasGO ?>')" class="Btn" href="<? echo $siteVendasGO ?>">
 					<h2>Goiânia</h2>
+				</a>
+			</div>
+
+			<div class="card">
+				<a onclick="gtag_report_conversion('<? echo $siteVendasSC ?>')" class="Btn" href="<? echo $siteVendasSC ?>">
+					<h2>Florianópolis</h2>
+				</a>
+			</div>
+
+			<div class="card">
+				<a onclick="gtag_report_conversion('<? echo $siteVendasMA ?>')" class="Btn" href="<? echo $siteVendasMA ?>">
+					<h2>São Luís</h2>
 				</a>
 			</div>
 		</div>
