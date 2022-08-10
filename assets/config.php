@@ -34,6 +34,7 @@
 		$siteVendasJP 		= 'https://olhaoingresso.showare.com.br/Performance/ShoWareFrontEndPerPerformance.aspx?eventid=373&filter=day&websaleschannelkey=internetchaim&orig=bfpb';
 		$siteVendasSC 		= 'https://olhaoingresso.showare.com.br/Performance/ShoWareFrontEndPerPerformance.aspx?eventid=399&filter=day&websaleschannelkey=internetchaim&orig=bfsc';
 		$siteVendasMA 		= 'https://olhaoingresso.showare.com.br/Performance/ShoWareFrontEndPerPerformance.aspx?eventid=400&filter=day&websaleschannelkey=internetchaim&orig=bfma';
+		$siteVendasPR 		= 'https://olhaoingresso.showare.com.br/Performance/ShoWareFrontEndPerPerformance.aspx?eventid=402&filter=day&websaleschannelkey=internetchaim&orig=bfpr';
 
 		
 ?>
