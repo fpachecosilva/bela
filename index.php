@@ -77,9 +77,6 @@
 
 		<div class="menu-locais-links">			
 			<a class="active" local="sp">SÃO PAULO</a>
-			<a class="" local="br">BRASÍLIA</a>
-			<a class="" local="vv">VILA VELHA</a>
-			<a class="" local="fo">FORTALEZA</a>
 			<a class="" local="so">SOROCABA</a>
 			<a class="" local="mg">UBERLÂNDIA</a>
 			<a class="" local="rp">RIBEIRÃO PRETO</a>
@@ -106,58 +103,7 @@
 					<h2>DURAÇÃO - 75min</h2>
 				</div>
 			</div>
-		</div>
-
-		<div class="local br">
-			<div class="wrapper-card">
-				<div class="card">
-					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon02.png">
-					</div>
-					<h2>PATIO BRASIL SHOPPING</h2>
-				</div>
-				<div class="card">
-					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon03.png">
-					</div>
-					<h2>DURAÇÃO - 75min</h2>
-				</div>
-			</div>
-		</div>
-
-		<div class="local vv">
-			<div class="wrapper-card">
-				<div class="card">
-					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon02.png">
-					</div>
-					<h2>SHOPPING VILA VELHA</h2>
-				</div>
-				<div class="card">
-					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon03.png">
-					</div>
-					<h2>DURAÇÃO - 75min</h2>
-				</div>
-			</div>
-		</div>
-
-		<div class="local fo">
-			<div class="wrapper-card">
-				<div class="card">
-					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon02.png">
-					</div>
-					<h2>SHOPPING RIOMAR FORTALEZA</h2>
-				</div>
-				<div class="card">
-					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon03.png">
-					</div>
-					<h2>DURAÇÃO - 75min</h2>
-				</div>
-			</div>
-		</div>
+		</div>		
 
 		<div class="local so">
 			<div class="wrapper-card">
@@ -370,181 +316,7 @@
 					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
 				</tr>
 			</table>
-		</div>
-
-		<div class="local br">
-			<h1>HORÁRIOS E VALORES - DF</h1>
-			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>			
-			
-			<table class="tabela-b linha1">
-				<tr>
-					<td class="first" rowspan ='3'>Dias e Sessões</td>					
-				</tr>				
-				<tr>
-					<td class="first" colspan ='2'>SÁB - 10h30, 13h, 15h, 17h e 19h</td>
-				</tr>				
-				<tr>
-					<td class="first" colspan ='2'>DOM - 13h, 15h, 17h e 19h</td>
-				</tr>				
-				<tr>
-					<td class="acesso-normal">Acesso Normal</td>
-					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
-				</tr>
-				<tr>
-					<td class="magic-pass">Magic Pass</td>
-					<td>R$ 95,00 sendo R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
-				</tr>				
-			</table>
-			<table class="tabela-b linha2">
-				<tr>
-					<td class="first" rowspan ='3'>Dias e Sessões</td>
-				</tr>				
-				<tr>
-					<td class="first" colspan ='2'>SÁB - 21h</td>
-				</tr>				
-				<tr>
-					<td class="first" colspan ='2'>DOM - 10h30 e 21h</td>
-				</tr>				
-				<tr>
-					<td class="acesso-normal">Acesso Normal</td>
-					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
-				</tr>
-				<tr>
-					<td class="magic-pass">Magic Pass</td>
-					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
-				</tr>				
-			</table>
-			<table class="tabela-b linha3">
-				<tr>
-					<td class="first">Dias e Sessões</td>
-					<td class="first">QUI e SEX - 18h e 20h</td>
-				</tr>
-				<tr>
-					<td class="acesso-normal">Acesso Normal</td>
-					<td>R$ 60,00 sendo R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
-				</tr>
-				<tr>
-					<td class="magic-pass">Magic Pass</td>
-					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
-				</tr>
-			</table>
-		</div>
-
-		<div class="local vv">
-			<h1>HORÁRIOS E VALORES - ES</h1>
-			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
-			
-			<table class="tabela-b linha1">
-				<tr>
-					<td class="first" rowspan ='3'>Dias e Sessões</td>					
-				</tr>				
-				<tr>
-					<td class="first" colspan ='2'>SÁB - 10h30, 13h, 15h, 17h e 19h</td>
-				</tr>				
-				<tr>
-					<td class="first" colspan ='2'>DOM - 13h, 15h, 17h e 19h</td>
-				</tr>				
-				<tr>
-					<td class="acesso-normal">Acesso Normal</td>
-					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
-				</tr>
-				<tr>
-					<td class="magic-pass">Magic Pass</td>
-					<td>R$ 95,00 sendo R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
-				</tr>				
-			</table>
-			<table class="tabela-b linha2">
-				<tr>
-					<td class="first" rowspan ='3'>Dias e Sessões</td>
-				</tr>				
-				<tr>
-					<td class="first" colspan ='2'>SÁB - 21h</td>
-				</tr>				
-				<tr>
-					<td class="first" colspan ='2'>DOM - 10h30 e 21h</td>
-				</tr>				
-				<tr>
-					<td class="acesso-normal">Acesso Normal</td>
-					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
-				</tr>
-				<tr>
-					<td class="magic-pass">Magic Pass</td>
-					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
-				</tr>				
-			</table>
-			<table class="tabela-b linha3">
-				<tr>
-					<td class="first">Dias e Sessões</td>
-					<td class="first">QUI e SEX - 18h e 20h</td>
-				</tr>
-				<tr>
-					<td class="acesso-normal">Acesso Normal</td>
-					<td>R$ 60,00 sendo R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
-				</tr>
-				<tr>
-					<td class="magic-pass">Magic Pass</td>
-					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
-				</tr>
-			</table>
-		</div>
-
-		<div class="local fo">
-			<h1>HORÁRIOS E VALORES - CE</h1>
-			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
-			
-			<table class="tabela-b linha1">
-				<tr>
-					<td class="first" rowspan ='3'>Dias e Sessões</td>					
-				</tr>				
-				<tr>
-					<td class="first" colspan ='2'>SÁB - 10h30, 13h, 15h, 17h e 19h</td>
-				</tr>				
-				<tr>
-					<td class="first" colspan ='2'>DOM - 13h, 15h, 17h e 19h</td>
-				</tr>				
-				<tr>
-					<td class="acesso-normal">Acesso Normal</td>
-					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
-				</tr>
-				<tr>
-					<td class="magic-pass">Magic Pass</td>
-					<td>R$ 95,00 sendo R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
-				</tr>				
-			</table>
-			<table class="tabela-b linha2">
-				<tr>
-					<td class="first" rowspan ='3'>Dias e Sessões</td>
-				</tr>				
-				<tr>
-					<td class="first" colspan ='2'>SÁB - 21h</td>
-				</tr>				
-				<tr>
-					<td class="first" colspan ='2'>DOM - 10h30 e 21h</td>
-				</tr>				
-				<tr>
-					<td class="acesso-normal">Acesso Normal</td>
-					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
-				</tr>
-				<tr>
-					<td class="magic-pass">Magic Pass</td>
-					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
-				</tr>				
-			</table>
-			<table class="tabela-b linha3">
-				<tr>
-					<td class="first">Dias e Sessões</td>
-					<td class="first">QUI e SEX - 18h e 20h</td>
-				</tr>
-				<tr>
-					<td class="acesso-normal">Acesso Normal</td>
-					<td>R$ 60,00 sendo R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
-				</tr>
-				<tr>
-					<td class="magic-pass">Magic Pass</td>
-					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
-				</tr>
-			</table>
-		</div>
+		</div>		
 
 		<div class="local so">
 			<h1>HORÁRIOS E VALORES - SP</h1>
@@ -1230,25 +1002,7 @@
 				<a onclick="gtag_report_conversion('<? echo $siteVendasSP ?>')" class="Btn" href="<? echo $siteVendasSP ?>">
 					<h2>São Paulo</h2>
 				</a>
-			</div>
-
-			<div class="card">
-				<a onclick="gtag_report_conversion('<? echo $siteVendasDF ?>')" class="Btn" href="<? echo $siteVendasDF ?>">
-					<h2>Brasília</h2>
-				</a>
-			</div>
-
-			<div class="card">
-				<a onclick="gtag_report_conversion('<? echo $siteVendasVV ?>')" class="Btn" href="<? echo $siteVendasVV ?>">
-					<h2>Vila Velha</h2>
-				</a>
-			</div>
-
-			<div class="card">
-				<a onclick="gtag_report_conversion('<? echo $siteVendasFO ?>')" class="Btn" href="<? echo $siteVendasFO ?>">
-					<h2>Fortaleza</h2>
-				</a>
-			</div>
+			</div>			
 
 			<div class="card">
 				<a onclick="gtag_report_conversion('<? echo $siteVendasSO ?>')" class="Btn" href="<? echo $siteVendasSO ?>">
