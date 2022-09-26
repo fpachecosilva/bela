@@ -76,8 +76,7 @@
 		<h1 class="">A BELA E A FERA EXPERIENCE</h1>
 
 		<div class="menu-locais-links">			
-			<a class="active" local="go">GOIÂNIA</a>
-			<a class="" local="rp">RIBEIRÃO PRETO</a>
+			<a class="active" local="rp">RIBEIRÃO PRETO</a>
 			<a class="" local="sc">SANTA CATARINA</a>
 			<a class="" local="mg">UBERLÂNDIA</a>
 			<a class="" local="ma">SÃO LUÍS</a>
@@ -103,30 +102,13 @@
 			</div>
 		</div>
 
-		<div class="local rp">
+		<div class="local rp active">
 			<div class="wrapper-card">
 				<div class="card">
 					<div class="img-wrapper">
 						<img src="<? echo $images ?>icon02.png">
 					</div>
 					<h2>SHOPPING IGUATEMI RIBEIRÃO PRETO​</h2>
-				</div>
-				<div class="card">
-					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon03.png">
-					</div>
-					<h2>DURAÇÃO - 75min</h2>
-				</div>
-			</div>
-		</div>
-
-		<div class="local go active">
-			<div class="wrapper-card">
-				<div class="card">
-					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon02.png">
-					</div>
-					<h2>GOIÂNIA SHOPPING</h2>
 				</div>
 				<div class="card">
 					<div class="img-wrapper">
@@ -282,68 +264,10 @@
 			</table>
 		</div>
 
-		<div class="local rp">
+		<div class="local rp active">
 			<h1>HORÁRIOS E VALORES - SP</h1>
 			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>			
 			
-			<table class="tabela-b linha1">
-				<tr>
-					<td class="first" rowspan ='3'>Dias e Sessões</td>					
-				</tr>				
-				<tr>
-					<td class="first" colspan ='2'>SÁB - 10h30, 13h, 15h, 17h e 19h</td>
-				</tr>				
-				<tr>
-					<td class="first" colspan ='2'>DOM - 13h, 15h, 17h e 19h</td>
-				</tr>				
-				<tr>
-					<td class="acesso-normal">Acesso Normal</td>
-					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
-				</tr>
-				<tr>
-					<td class="magic-pass">Magic Pass</td>
-					<td>R$ 95,00 sendo R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
-				</tr>				
-			</table>
-			<table class="tabela-b linha2">
-				<tr>
-					<td class="first" rowspan ='3'>Dias e Sessões</td>
-				</tr>				
-				<tr>
-					<td class="first" colspan ='2'>SÁB - 21h</td>
-				</tr>				
-				<tr>
-					<td class="first" colspan ='2'>DOM - 10h30 e 21h</td>
-				</tr>				
-				<tr>
-					<td class="acesso-normal">Acesso Normal</td>
-					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
-				</tr>
-				<tr>
-					<td class="magic-pass">Magic Pass</td>
-					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
-				</tr>				
-			</table>
-			<table class="tabela-b linha3">
-				<tr>
-					<td class="first">Dias e Sessões</td>
-					<td class="first">QUI e SEX - 18h e 20h</td>
-				</tr>
-				<tr>
-					<td class="acesso-normal">Acesso Normal</td>
-					<td>R$ 60,00 sendo R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
-				</tr>
-				<tr>
-					<td class="magic-pass">Magic Pass</td>
-					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
-				</tr>
-			</table>
-		</div>
-
-		<div class="local go active">
-			<h1>HORÁRIOS E VALORES - GO</h1>
-			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
-						
 			<table class="tabela-b linha1">
 				<tr>
 					<td class="first" rowspan ='3'>Dias e Sessões</td>					
@@ -883,12 +807,6 @@
 		</p>
 		
 		<div class="wrapper-card">
-			<div class="card">
-				<a onclick="gtag_report_conversion('<? echo $siteVendasGO ?>')" class="Btn" href="<? echo $siteVendasGO ?>">
-					<h2>Goiânia</h2>
-				</a>
-			</div>			
-
 			<div class="card">
 				<a onclick="gtag_report_conversion('<? echo $siteVendasRP ?>')" class="Btn" href="<? echo $siteVendasRP ?>">
 					<h2>Ribeirão Preto</h2>
