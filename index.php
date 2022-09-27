@@ -13,12 +13,12 @@
 	$imagemCompartilhamento = $images . 'compartilhamento.jpg';
 	$sessao = 'home';
 	?>
-	<title><? echo $tituloPagina ?></title>
+	<title><?php echo $tituloPagina ?></title>
 	<?php include 'assets/head.php'; ?>
 
-	<meta property="og:title" content="<? echo $tituloPagina ?>" />
-	<meta name="description" content="<? echo $descricaoCompartilhamento ?>" /> <!-- DESCRIÇÃO SEO GOOGLE -->
-	<meta property="og:description" content="<? echo $descricaoCompartilhamento ?>" /> <!-- DESCRIÇÃO FACEBOOK -->
+	<meta property="og:title" content="<?php echo $tituloPagina ?>" />
+	<meta name="description" content="<?php echo $descricaoCompartilhamento ?>" /> <!-- DESCRIÇÃO SEO GOOGLE -->
+	<meta property="og:description" content="<?php echo $descricaoCompartilhamento ?>" /> <!-- DESCRIÇÃO FACEBOOK -->
 
 </head>
 
@@ -37,7 +37,7 @@
 	</header>
 
 	<section id="principal">
-		<img class="bg" src="<? echo $images ?>bg.jpg">
+		<img class="bg" src="<?php echo $images ?>bg.jpg">
 		<article>
 			<h1>ENCENADO NUM BELÍSSIMO SALÃO DE BAILE​<strong>A BELA E A FERA DINING EXPERIENCE​</strong></h1>
 		</article>
@@ -64,12 +64,12 @@
 			Crianças a partir dos 24 meses são pagantes.
 		</p>
 
-		<video id='videolol' src="<? echo $images ?>bela.mov" preload="auto" type="video/mp4" controls poster="<? echo $images ?>bela_Moment.jpg"></video>
+		<video id='videolol' src="<?php echo $images ?>bela.mov" preload="auto" type="video/mp4" controls poster="<?php echo $images ?>bela_Moment.jpg"></video>
 	</section>
 
 	<div class="parceiros DesktopItem">
 		<p style="text-align: center">MEDIA PARTNER OFICIAL</p>
-		<img class="logo-parceiros" src="<? echo $images ?>media-partner.png">
+		<img class="logo-parceiros" src="<?php echo $images ?>media-partner.png">
 	</div>
 
 	<section id="icones">
@@ -89,13 +89,13 @@
 			<div class="wrapper-card">
 				<div class="card">
 					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon02.png">
+						<img src="<?php echo $images ?>icon02.png">
 					</div>
 					<h2>UBERLÂNDIA SHOPPING​</h2>
 				</div>
 				<div class="card">
 					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon03.png">
+						<img src="<?php echo $images ?>icon03.png">
 					</div>
 					<h2>DURAÇÃO - 75min</h2>
 				</div>
@@ -106,13 +106,13 @@
 			<div class="wrapper-card">
 				<div class="card">
 					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon02.png">
+						<img src="<?php echo $images ?>icon02.png">
 					</div>
 					<h2>SHOPPING IGUATEMI RIBEIRÃO PRETO​</h2>
 				</div>
 				<div class="card">
 					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon03.png">
+						<img src="<?php echo $images ?>icon03.png">
 					</div>
 					<h2>DURAÇÃO - 75min</h2>
 				</div>
@@ -123,13 +123,13 @@
 			<div class="wrapper-card">
 				<div class="card">
 					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon02.png">
+						<img src="<?php echo $images ?>icon02.png">
 					</div>
 					<h2>FLORIPA SHOPPING</h2>
 				</div>
 				<div class="card">
 					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon03.png">
+						<img src="<?php echo $images ?>icon03.png">
 					</div>
 					<h2>DURAÇÃO - 75min</h2>
 				</div>
@@ -140,13 +140,13 @@
 			<div class="wrapper-card">
 				<div class="card">
 					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon02.png">
+						<img src="<?php echo $images ?>icon02.png">
 					</div>
 					<h2>SÃO LUÍS SHOPPING</h2>
 				</div>
 				<div class="card">
 					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon03.png">
+						<img src="<?php echo $images ?>icon03.png">
 					</div>
 					<h2>DURAÇÃO - 75min</h2>
 				</div>
@@ -157,13 +157,13 @@
 			<div class="wrapper-card">
 				<div class="card">
 					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon02.png">
+						<img src="<?php echo $images ?>icon02.png">
 					</div>
 					<h2>JOCKEY PLAZA SHOPPING</h2>
 				</div>
 				<div class="card">
 					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon03.png">
+						<img src="<?php echo $images ?>icon03.png">
 					</div>
 					<h2>DURAÇÃO - 75min</h2>
 				</div>
@@ -174,13 +174,13 @@
 			<div class="wrapper-card">
 				<div class="card">
 					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon02.png">
+						<img src="<?php echo $images ?>icon02.png">
 					</div>
 					<h2>PRAIA DE BELAS SHOPPING</h2>
 				</div>
 				<div class="card">
 					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon03.png">
+						<img src="<?php echo $images ?>icon03.png">
 					</div>
 					<h2>DURAÇÃO - 75min</h2>
 				</div>
@@ -191,13 +191,13 @@
 			<div class="wrapper-card">
 				<div class="card">
 					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon02.png">
+						<img src="<?php echo $images ?>icon02.png">
 					</div>
 					<h2>CATUAÍ SHOPPING LONDRINA</h2>
 				</div>
 				<div class="card">
 					<div class="img-wrapper">
-						<img src="<? echo $images ?>icon03.png">
+						<img src="<?php echo $images ?>icon03.png">
 					</div>
 					<h2>DURAÇÃO - 75min</h2>
 				</div>
@@ -797,7 +797,7 @@
 			</div>
 		</div>
 
-		<!-- <img class="mapa" src="<? echo $images ?>mapa.jpg"> -->
+		<!-- <img class="mapa" src="<?php echo $images ?>mapa.jpg"> -->
 	</section>
 
 	<section id="ingressos">
@@ -808,43 +808,43 @@
 		
 		<div class="wrapper-card">
 			<div class="card">
-				<a onclick="gtag_report_conversion('<? echo $siteVendasRP ?>')" class="Btn" href="<? echo $siteVendasRP ?>">
+				<a onclick="gtag_report_conversion('<?php echo $siteVendasRP ?>')" class="Btn" href="<?php echo $siteVendasRP ?>">
 					<h2>Ribeirão Preto</h2>
 				</a>
 			</div>
 
 			<div class="card">
-				<a onclick="gtag_report_conversion('<? echo $siteVendasSC ?>')" class="Btn" href="<? echo $siteVendasSC ?>">
+				<a onclick="gtag_report_conversion('<?php echo $siteVendasSC ?>')" class="Btn" href="<?php echo $siteVendasSC ?>">
 					<h2>Florianópolis</h2>
 				</a>
 			</div>
 
 			<div class="card">
-				<a onclick="gtag_report_conversion('<? echo $siteVendasMG ?>')" class="Btn" href="<? echo $siteVendasMG ?>">
+				<a onclick="gtag_report_conversion('<?php echo $siteVendasMG ?>')" class="Btn" href="<?php echo $siteVendasMG ?>">
 					<h2>Uberlândia</h2>
 				</a>
 			</div>
 
 			<div class="card">
-				<a onclick="gtag_report_conversion('<? echo $siteVendasMA ?>')" class="Btn" href="<? echo $siteVendasMA ?>">
+				<a onclick="gtag_report_conversion('<?php echo $siteVendasMA ?>')" class="Btn" href="<?php echo $siteVendasMA ?>">
 					<h2>São Luís</h2>
 				</a>
 			</div>
 
 			<div class="card">
-				<a onclick="gtag_report_conversion('<? echo $siteVendasPR ?>')" class="Btn" href="<? echo $siteVendasPR ?>">
+				<a onclick="gtag_report_conversion('<?php echo $siteVendasPR ?>')" class="Btn" href="<?php echo $siteVendasPR ?>">
 					<h2>Curitiba</h2>
 				</a>
 			</div>
 
 			<div class="card">
-				<a onclick="gtag_report_conversion('<? echo $siteVendasLOPR ?>')" class="Btn" href="<? echo $siteVendasLOPR ?>">
+				<a onclick="gtag_report_conversion('<?php echo $siteVendasLOPR ?>')" class="Btn" href="<?php echo $siteVendasLOPR ?>">
 					<h2>Londrina</h2>
 				</a>
 			</div>
 
 			<div class="card">
-				<a onclick="gtag_report_conversion('<? echo $siteVendasRS ?>')" class="Btn" href="<? echo $siteVendasRS ?>">
+				<a onclick="gtag_report_conversion('<?php echo $siteVendasRS ?>')" class="Btn" href="<?php echo $siteVendasRS ?>">
 					<h2>Porto Alegre</h2>
 				</a>
 			</div>
@@ -860,7 +860,7 @@
 			<?php include 'assets/social.php'; ?>
 		</div>
 
-		<img class="logofooter" src="<? echo $images ?>logo.png">
+		<img class="logofooter" src="<?php echo $images ?>logo.png">
 
 	</section>
 
