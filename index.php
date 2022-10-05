@@ -49,9 +49,7 @@
 	</section>
 
 	<section id="menu-abas">
-		<p id="megashow">
-			Ao chegar, o visitante já será recebido no jardim de um suntuoso castelo com em média 700mt² construído para receber A Bela e a Fera Dining Experience. Toda experiência começa ao se deparar com a entrada do castelo, perfeito para incríveis registros fotográficos.​
-			<br><br>
+		<p id="megashow">			
 			Após a recepção por nossa equipe devidamente caracterizada. Os visitante serão convidados ao salão real, onde o baile irá começar.  Depois de tomarem os seus lugares e realizarem seus primeiros pedidos, os funcionários da realeza levarão as delicias solicitadas já preparando o público para a segunda parte da experiência.​
 			<br><br>
 			Com a plateia em formato de restaurante, o show é uma releitura, adaptada da clássica história, originalmente escrita pela francesa Gabrielle-Suzanne Barbot em 1.740. Com dezenas de artistas, os convidados desse glamuroso evento podem esperar muita música, dança, teatro e ilusionismo, além de efeitos especiais visuais durante todo o percurso. Tudo isso enquanto se deliciam com uma experiência gastronômica desenvolvida especialmente para o evento. ​
