@@ -74,73 +74,18 @@
 		<h1 class="">A BELA E A FERA EXPERIENCE</h1>
 
 		<div class="menu-locais-links">			
-			<a class="active" local="rp">RIBEIRÃO PRETO</a>
-			<a class="" local="sc">SANTA CATARINA</a>
-			<a class="" local="mg">UBERLÂNDIA</a>
-			<a class="" local="ma">SÃO LUÍS</a>
-			<a class="" local="pr">CURITIBA</a>
-			<a class="" local="lopr">LONDRINA</a>
+			<a class="active" local="sc">SANTA CATARINA</a>			
+			<a class="" local="pr">CURITIBA</a>			
 			<a class="" local="rs">PORTO ALEGRE</a>
 		</div>
 
-		<div class="local mg">
-			<div class="wrapper-card">
-				<div class="card">
-					<div class="img-wrapper">
-						<img src="<?php echo $images ?>icon02.png">
-					</div>
-					<h2>UBERLÂNDIA SHOPPING​</h2>
-				</div>
-				<div class="card">
-					<div class="img-wrapper">
-						<img src="<?php echo $images ?>icon03.png">
-					</div>
-					<h2>DURAÇÃO - 75min</h2>
-				</div>
-			</div>
-		</div>
-
-		<div class="local rp active">
-			<div class="wrapper-card">
-				<div class="card">
-					<div class="img-wrapper">
-						<img src="<?php echo $images ?>icon02.png">
-					</div>
-					<h2>SHOPPING IGUATEMI RIBEIRÃO PRETO​</h2>
-				</div>
-				<div class="card">
-					<div class="img-wrapper">
-						<img src="<?php echo $images ?>icon03.png">
-					</div>
-					<h2>DURAÇÃO - 75min</h2>
-				</div>
-			</div>
-		</div>
-
-		<div class="local sc">
+		<div class="local sc active">
 			<div class="wrapper-card">
 				<div class="card">
 					<div class="img-wrapper">
 						<img src="<?php echo $images ?>icon02.png">
 					</div>
 					<h2>FLORIPA SHOPPING</h2>
-				</div>
-				<div class="card">
-					<div class="img-wrapper">
-						<img src="<?php echo $images ?>icon03.png">
-					</div>
-					<h2>DURAÇÃO - 75min</h2>
-				</div>
-			</div>
-		</div>
-
-		<div class="local ma">
-			<div class="wrapper-card">
-				<div class="card">
-					<div class="img-wrapper">
-						<img src="<?php echo $images ?>icon02.png">
-					</div>
-					<h2>SÃO LUÍS SHOPPING</h2>
 				</div>
 				<div class="card">
 					<div class="img-wrapper">
@@ -183,144 +128,11 @@
 					<h2>DURAÇÃO - 75min</h2>
 				</div>
 			</div>
-		</div>
-
-		<div class="local lopr">
-			<div class="wrapper-card">
-				<div class="card">
-					<div class="img-wrapper">
-						<img src="<?php echo $images ?>icon02.png">
-					</div>
-					<h2>CATUAÍ SHOPPING LONDRINA</h2>
-				</div>
-				<div class="card">
-					<div class="img-wrapper">
-						<img src="<?php echo $images ?>icon03.png">
-					</div>
-					<h2>DURAÇÃO - 75min</h2>
-				</div>
-			</div>
-		</div>
+		</div>		
 	</section>
 
 	<section id="valores">
-		<div class="local mg">
-			<h1>HORÁRIOS E VALORES - MG</h1>
-			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>			
-			
-			<table class="tabela-b linha1">
-				<tr>
-					<td class="first" rowspan ='3'>Dias e Sessões</td>					
-				</tr>				
-				<tr>
-					<td class="first" colspan ='2'>SÁB - 10h30, 13h, 15h, 17h e 19h</td>
-				</tr>				
-				<tr>
-					<td class="first" colspan ='2'>DOM - 13h, 15h, 17h e 19h</td>
-				</tr>				
-				<tr>
-					<td class="acesso-normal">Acesso Normal</td>
-					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
-				</tr>
-				<tr>
-					<td class="magic-pass">Magic Pass</td>
-					<td>R$ 95,00 sendo R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
-				</tr>				
-			</table>
-			<table class="tabela-b linha2">
-				<tr>
-					<td class="first" rowspan ='3'>Dias e Sessões</td>
-				</tr>				
-				<tr>
-					<td class="first" colspan ='2'>SÁB - 21h</td>
-				</tr>				
-				<tr>
-					<td class="first" colspan ='2'>DOM - 10h30 e 21h</td>
-				</tr>				
-				<tr>
-					<td class="acesso-normal">Acesso Normal</td>
-					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
-				</tr>
-				<tr>
-					<td class="magic-pass">Magic Pass</td>
-					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
-				</tr>				
-			</table>
-			<table class="tabela-b linha3">
-				<tr>
-					<td class="first">Dias e Sessões</td>
-					<td class="first">QUI e SEX - 18h e 20h</td>
-				</tr>
-				<tr>
-					<td class="acesso-normal">Acesso Normal</td>
-					<td>R$ 60,00 sendo R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
-				</tr>
-				<tr>
-					<td class="magic-pass">Magic Pass</td>
-					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
-				</tr>
-			</table>
-		</div>
-
-		<div class="local rp active">
-			<h1>HORÁRIOS E VALORES - SP</h1>
-			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>			
-			
-			<table class="tabela-b linha1">
-				<tr>
-					<td class="first" rowspan ='3'>Dias e Sessões</td>					
-				</tr>				
-				<tr>
-					<td class="first" colspan ='2'>SÁB - 10h30, 13h, 15h, 17h e 19h</td>
-				</tr>				
-				<tr>
-					<td class="first" colspan ='2'>DOM - 13h, 15h, 17h e 19h</td>
-				</tr>				
-				<tr>
-					<td class="acesso-normal">Acesso Normal</td>
-					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico</td>
-				</tr>
-				<tr>
-					<td class="magic-pass">Magic Pass</td>
-					<td>R$ 95,00 sendo R$ 45,00 Consumação + R$ 50,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
-				</tr>				
-			</table>
-			<table class="tabela-b linha2">
-				<tr>
-					<td class="first" rowspan ='3'>Dias e Sessões</td>
-				</tr>				
-				<tr>
-					<td class="first" colspan ='2'>SÁB - 21h</td>
-				</tr>				
-				<tr>
-					<td class="first" colspan ='2'>DOM - 10h30 e 21h</td>
-				</tr>				
-				<tr>
-					<td class="acesso-normal">Acesso Normal</td>
-					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico</td>
-				</tr>
-				<tr>
-					<td class="magic-pass">Magic Pass</td>
-					<td>R$ 80,00 sendo R$ 45,00 Consumação + R$ 35,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
-				</tr>				
-			</table>
-			<table class="tabela-b linha3">
-				<tr>
-					<td class="first">Dias e Sessões</td>
-					<td class="first">QUI e SEX - 18h e 20h</td>
-				</tr>
-				<tr>
-					<td class="acesso-normal">Acesso Normal</td>
-					<td>R$ 60,00 sendo R$ 45,00 Consumação + R$ 15,00 Couvert Artístico</td>
-				</tr>
-				<tr>
-					<td class="magic-pass">Magic Pass</td>
-					<td>R$ 70,00 sendo R$ 45,00 Consumação + R$ 25,00 Couvert Artístico com direito a MagicPass (acesso prioritário)</td>
-				</tr>
-			</table>
-		</div>
-
-		<div class="local sc">
+		<div class="local sc active">
 			<h1>HORÁRIOS E VALORES - SC</h1>
 			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
 
@@ -413,102 +225,7 @@
 				</table>
 
 			</div>
-		</div>
-
-		<div class="local ma">
-			<h1>HORÁRIOS E VALORES - MA</h1>
-			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
-
-			<div class="modelo-3">
-				<table>
-					<tr>
-						<td class="cel-amarela">Dias e Sessões</td>
-						<td class="cel-amarela">QUI e SEX - 16h, 18h e 20h</td>
-					</tr>
-					<tr>
-						<td class="cel-azul">Magic Fast Pass (Acesso Exclusivo)</td>
-						<td class="cel-verde">Acesso Normal</td>
-					</tr>
-					<tr>
-						<td>Combo VIP</td>
-						<td>Combo VIP</td>
-					</tr>
-					<tr>
-						<td>Show, Entrada e Prato Principal</td>
-						<td>Show, Entrada e Prato Principal</td>
-					</tr>
-					<tr>
-						<td>De R$ 104,90 por R$ 74,90</td>
-						<td>De R$ 94,90 por R$ 64,90</td>
-					</tr>
-				</table>
-				
-				<table>
-					<tr>
-						<td class="cel-amarela" rowspan="2" colspan="2">Dias e Sessões</td>
-						<td class="cel-amarela" colspan="2">SÁB - 21h</td>
-					</tr>
-					<tr>
-						<td class="cel-amarela" colspan="2">DOM - 19h e 21h</td>
-					</tr>
-					<tr>
-						<td class="cel-azul" colspan="2">Magic Fast Pass (Acesso Exclusivo)</td>
-						<td class="cel-verde" colspan="2">Acesso Normal</td>
-					</tr>
-					<tr class="colunas-4">
-						<td>Combo Premium</td>
-						<td>Combo VIP</td>
-						<td>Combo Premium</td>
-						<td>Combo VIP</td>
-					</tr>
-					<tr class="colunas-4">
-						<td>Show, Entrada, Prato Principal e Sobremesa</td>
-						<td>Show, Entrada, Prato Principal</td>
-						<td>Show, Entrada, Prato Principal e Sobremesa</td>
-						<td>Show, Entrada, Prato Principal</td>
-					</tr>
-					<tr class="colunas-4">
-						<td>De R$ 119,90 por R$ 89,90</td>
-						<td>R$ 79,90</td>
-						<td>De R$ 109,90 por R$ 79,90</td>
-						<td>R$ 69,90</td>
-					</tr>
-				</table>
-
-				<table>
-					<tr>
-						<td class="cel-amarela" rowspan="2" colspan="2">Dias e Sessões</td>
-						<td class="cel-amarela" colspan="2">SÁB - 13h, 15h, 17h e 19h</td>
-					</tr>
-					<tr>
-						<td class="cel-amarela" colspan="2">DOM - 13h, 15h, 17h</td>
-					</tr>
-					<tr>
-						<td class="cel-azul" colspan="2">Magic Fast Pass (Acesso Exclusivo)</td>
-						<td class="cel-verde" colspan="2">Acesso Normal</td>
-					</tr>
-					<tr class="colunas-4">
-						<td>Combo Premium</td>
-						<td>Combo VIP</td>
-						<td>Combo Premium</td>
-						<td>Combo VIP</td>
-					</tr>
-					<tr class="colunas-4">
-						<td>Show, Entrada, Prato Principal e Sobremesa</td>
-						<td>Show, Entrada, Prato Principal</td>
-						<td>Show, Entrada, Prato Principal e Sobremesa</td>
-						<td>Show, Entrada, Prato Principal</td>
-					</tr>
-					<tr class="colunas-4">
-						<td>De R$ 129,90 por R$ 99,90</td>
-						<td>R$ 89,90</td>
-						<td>De R$ 119,90 por R$ 89,90</td>
-						<td>R$ 79,90</td>
-					</tr>
-				</table>
-
-			</div>
-		</div>
+		</div>		
 
 		<div class="local pr">
 			<h1>HORÁRIOS E VALORES - PR</h1>
@@ -698,102 +415,7 @@
 				</table>
 
 			</div>
-		</div>
-
-		<div class="local lopr">
-			<h1>HORÁRIOS E VALORES - PR</h1>
-			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
-
-			<div class="modelo-3">
-				<table>
-					<tr>
-						<td class="cel-amarela">Dias e Sessões</td>
-						<td class="cel-amarela">QUI e SEX - 16h, 18h e 20h</td>
-					</tr>
-					<tr>
-						<td class="cel-azul">Magic Fast Pass (Acesso Exclusivo)</td>
-						<td class="cel-verde">Acesso Normal</td>
-					</tr>
-					<tr>
-						<td>Combo VIP</td>
-						<td>Combo VIP</td>
-					</tr>
-					<tr>
-						<td>Show, Entrada e Prato Principal</td>
-						<td>Show, Entrada e Prato Principal</td>
-					</tr>
-					<tr>
-						<td>De R$ 104,90 por R$ 74,90</td>
-						<td>De R$ 94,90 por R$ 64,90</td>
-					</tr>
-				</table>
-				
-				<table>
-					<tr>
-						<td class="cel-amarela" rowspan="2" colspan="2">Dias e Sessões</td>
-						<td class="cel-amarela" colspan="2">SÁB - 21h</td>
-					</tr>
-					<tr>
-						<td class="cel-amarela" colspan="2">DOM - 19h e 21h</td>
-					</tr>
-					<tr>
-						<td class="cel-azul" colspan="2">Magic Fast Pass (Acesso Exclusivo)</td>
-						<td class="cel-verde" colspan="2">Acesso Normal</td>
-					</tr>
-					<tr class="colunas-4">
-						<td>Combo Premium</td>
-						<td>Combo VIP</td>
-						<td>Combo Premium</td>
-						<td>Combo VIP</td>
-					</tr>
-					<tr class="colunas-4">
-						<td>Show, Entrada, Prato Principal e Sobremesa</td>
-						<td>Show, Entrada, Prato Principal</td>
-						<td>Show, Entrada, Prato Principal e Sobremesa</td>
-						<td>Show, Entrada, Prato Principal</td>
-					</tr>
-					<tr class="colunas-4">
-						<td>De R$ 119,90 por R$ 89,90</td>
-						<td>R$ 79,90</td>
-						<td>De R$ 109,90 por R$ 79,90</td>
-						<td>R$ 69,90</td>
-					</tr>
-				</table>
-
-				<table>
-					<tr>
-						<td class="cel-amarela" rowspan="2" colspan="2">Dias e Sessões</td>
-						<td class="cel-amarela" colspan="2">SÁB - 13h, 15h, 17h e 19h</td>
-					</tr>
-					<tr>
-						<td class="cel-amarela" colspan="2">DOM - 13h, 15h, 17h</td>
-					</tr>
-					<tr>
-						<td class="cel-azul" colspan="2">Magic Fast Pass (Acesso Exclusivo)</td>
-						<td class="cel-verde" colspan="2">Acesso Normal</td>
-					</tr>
-					<tr class="colunas-4">
-						<td>Combo Premium</td>
-						<td>Combo VIP</td>
-						<td>Combo Premium</td>
-						<td>Combo VIP</td>
-					</tr>
-					<tr class="colunas-4">
-						<td>Show, Entrada, Prato Principal e Sobremesa</td>
-						<td>Show, Entrada, Prato Principal</td>
-						<td>Show, Entrada, Prato Principal e Sobremesa</td>
-						<td>Show, Entrada, Prato Principal</td>
-					</tr>
-					<tr class="colunas-4">
-						<td>De R$ 129,90 por R$ 99,90</td>
-						<td>R$ 89,90</td>
-						<td>De R$ 119,90 por R$ 89,90</td>
-						<td>R$ 79,90</td>
-					</tr>
-				</table>
-
-			</div>
-		</div>
+		</div>		
 
 		<!-- <img class="mapa" src="<?php echo $images ?>mapa.jpg"> -->
 	</section>
@@ -806,26 +428,8 @@
 		
 		<div class="wrapper-card">
 			<div class="card">
-				<a onclick="gtag_report_conversion('<?php echo $siteVendasRP ?>')" class="Btn" href="<?php echo $siteVendasRP ?>">
-					<h2>Ribeirão Preto</h2>
-				</a>
-			</div>
-
-			<div class="card">
 				<a onclick="gtag_report_conversion('<?php echo $siteVendasSC ?>')" class="Btn" href="<?php echo $siteVendasSC ?>">
 					<h2>Florianópolis</h2>
-				</a>
-			</div>
-
-			<div class="card">
-				<a onclick="gtag_report_conversion('<?php echo $siteVendasMG ?>')" class="Btn" href="<?php echo $siteVendasMG ?>">
-					<h2>Uberlândia</h2>
-				</a>
-			</div>
-
-			<div class="card">
-				<a onclick="gtag_report_conversion('<?php echo $siteVendasMA ?>')" class="Btn" href="<?php echo $siteVendasMA ?>">
-					<h2>São Luís</h2>
 				</a>
 			</div>
 
@@ -833,13 +437,7 @@
 				<a onclick="gtag_report_conversion('<?php echo $siteVendasPR ?>')" class="Btn" href="<?php echo $siteVendasPR ?>">
 					<h2>Curitiba</h2>
 				</a>
-			</div>
-
-			<div class="card">
-				<a onclick="gtag_report_conversion('<?php echo $siteVendasLOPR ?>')" class="Btn" href="<?php echo $siteVendasLOPR ?>">
-					<h2>Londrina</h2>
-				</a>
-			</div>
+			</div>			
 
 			<div class="card">
 				<a onclick="gtag_report_conversion('<?php echo $siteVendasRS ?>')" class="Btn" href="<?php echo $siteVendasRS ?>">
@@ -848,20 +446,11 @@
 			</div>
 		</div>
 
-		<!-- <div class="ingressostxt">
-			<p>
-
-			</p>
-		</div> -->
-
 		<div class="box-social">
 			<?php include 'assets/social.php'; ?>
 		</div>
-
 		<img class="logofooter" src="<?php echo $images ?>logo.png">
-
 	</section>
-
 
 	<?php include 'assets/footer.php'; ?>
 
