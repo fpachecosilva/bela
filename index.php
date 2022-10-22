@@ -77,6 +77,7 @@
 			<a class="active" local="sc">SANTA CATARINA</a>			
 			<a class="" local="pr">CURITIBA</a>			
 			<a class="" local="rs">PORTO ALEGRE</a>
+			<a class="" local="ma">SÃO LUÍS</a>
 		</div>
 
 		<div class="local sc active">
@@ -128,7 +129,24 @@
 					<h2>DURAÇÃO - 75min</h2>
 				</div>
 			</div>
-		</div>		
+		</div>	
+		
+		<div class="local ma">
+			<div class="wrapper-card">
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<?php echo $images ?>icon02.png">
+					</div>
+					<h2>SÃO LUÍS SHOPPING</h2>
+				</div>
+				<div class="card">
+					<div class="img-wrapper">
+						<img src="<?php echo $images ?>icon03.png">
+					</div>
+					<h2>DURAÇÃO - 75min</h2>
+				</div>
+			</div>
+		</div>
 	</section>
 
 	<section id="valores">
@@ -415,7 +433,102 @@
 				</table>
 
 			</div>
-		</div>		
+		</div>	
+		
+		<div class="local ma">
+			<h1>HORÁRIOS E VALORES - MA</h1>
+			<h2>Quinta e Sexta - 18h e 20h <br>Sáb e Dom - 10h30, 13h, 15h, 17h, 19h e 21h</h2>
+
+			<div class="modelo-3">
+				<table>
+					<tr>
+						<td class="cel-amarela">Dias e Sessões</td>
+						<td class="cel-amarela">QUI e SEX - 16h, 18h e 20h</td>
+					</tr>
+					<tr>
+						<td class="cel-azul">Magic Fast Pass (Acesso Exclusivo)</td>
+						<td class="cel-verde">Acesso Normal</td>
+					</tr>
+					<tr>
+						<td>Combo VIP</td>
+						<td>Combo VIP</td>
+					</tr>
+					<tr>
+						<td>Show, Entrada e Prato Principal</td>
+						<td>Show, Entrada e Prato Principal</td>
+					</tr>
+					<tr>
+						<td>De R$ 104,90 por R$ 74,90</td>
+						<td>De R$ 94,90 por R$ 64,90</td>
+					</tr>
+				</table>
+				
+				<table>
+					<tr>
+						<td class="cel-amarela" rowspan="2" colspan="2">Dias e Sessões</td>
+						<td class="cel-amarela" colspan="2">SÁB - 21h</td>
+					</tr>
+					<tr>
+						<td class="cel-amarela" colspan="2">DOM - 19h e 21h</td>
+					</tr>
+					<tr>
+						<td class="cel-azul" colspan="2">Magic Fast Pass (Acesso Exclusivo)</td>
+						<td class="cel-verde" colspan="2">Acesso Normal</td>
+					</tr>
+					<tr class="colunas-4">
+						<td>Combo Premium</td>
+						<td>Combo VIP</td>
+						<td>Combo Premium</td>
+						<td>Combo VIP</td>
+					</tr>
+					<tr class="colunas-4">
+						<td>Show, Entrada, Prato Principal e Sobremesa</td>
+						<td>Show, Entrada, Prato Principal</td>
+						<td>Show, Entrada, Prato Principal e Sobremesa</td>
+						<td>Show, Entrada, Prato Principal</td>
+					</tr>
+					<tr class="colunas-4">
+						<td>De R$ 119,90 por R$ 89,90</td>
+						<td>R$ 79,90</td>
+						<td>De R$ 109,90 por R$ 79,90</td>
+						<td>R$ 69,90</td>
+					</tr>
+				</table>
+
+				<table>
+					<tr>
+						<td class="cel-amarela" rowspan="2" colspan="2">Dias e Sessões</td>
+						<td class="cel-amarela" colspan="2">SÁB - 13h, 15h, 17h e 19h</td>
+					</tr>
+					<tr>
+						<td class="cel-amarela" colspan="2">DOM - 13h, 15h, 17h</td>
+					</tr>
+					<tr>
+						<td class="cel-azul" colspan="2">Magic Fast Pass (Acesso Exclusivo)</td>
+						<td class="cel-verde" colspan="2">Acesso Normal</td>
+					</tr>
+					<tr class="colunas-4">
+						<td>Combo Premium</td>
+						<td>Combo VIP</td>
+						<td>Combo Premium</td>
+						<td>Combo VIP</td>
+					</tr>
+					<tr class="colunas-4">
+						<td>Show, Entrada, Prato Principal e Sobremesa</td>
+						<td>Show, Entrada, Prato Principal</td>
+						<td>Show, Entrada, Prato Principal e Sobremesa</td>
+						<td>Show, Entrada, Prato Principal</td>
+					</tr>
+					<tr class="colunas-4">
+						<td>De R$ 129,90 por R$ 99,90</td>
+						<td>R$ 89,90</td>
+						<td>De R$ 119,90 por R$ 89,90</td>
+						<td>R$ 79,90</td>
+					</tr>
+				</table>
+
+			</div>
+		</div>
 
 		<!-- <img class="mapa" src="<?php echo $images ?>mapa.jpg"> -->
 	</section>
@@ -442,6 +555,12 @@
 			<div class="card">
 				<a onclick="gtag_report_conversion('<?php echo $siteVendasRS ?>')" class="Btn" href="<?php echo $siteVendasRS ?>">
 					<h2>Porto Alegre</h2>
+				</a>
+			</div>
+
+			<div class="card">
+				<a onclick="gtag_report_conversion('<?php echo $siteVendasMA ?>')" class="Btn" href="<?php echo $siteVendasMA ?>">
+					<h2>São Luís</h2>
 				</a>
 			</div>
 		</div>
