@@ -431,7 +431,7 @@
 				<a onclick="gtag_report_conversion('<?php echo $siteVendasPR ?>')" class="Btn" href="<?php echo $siteVendasPR ?>">
 					<h2>Curitiba</h2>
 				</a>
-			</div>			
+			</div>
 
 			<div class="card">
 				<a onclick="gtag_report_conversion('<?php echo $siteVendasRS ?>')" class="Btn" href="<?php echo $siteVendasRS ?>">
